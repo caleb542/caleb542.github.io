@@ -223,7 +223,7 @@ nav {
     margin-top: 9px;
     display: block;
     font-size: 16px;
-    border-right:2px solid #ff0000;
+   
   }
 
   a {
@@ -234,8 +234,7 @@ nav {
     letter-spacing: 1px;
     margin-right:18px;
     padding-right:5px;
-   
-    background:#fff;
+    background:#fff; border-right:2px solid #ff0000;
 
     @include mobile {
       margin: 0 10px;

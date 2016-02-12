@@ -1,3 +1,4 @@
 Hi I want to say something
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
-![an image alt text]({{ site.baseurl }}/images/jekyll-logo.png "an image title")
+![IMAGE 1 ALT]({{ site.baseurl }}/images/jekyll-logo.png "this image")
+![IMAGE 2 ALT]({{ site.baseurl }}/images/jekyll-logo.png "that image")
+<h3>Header3</h3>

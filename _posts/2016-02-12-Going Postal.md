@@ -1,6 +1,8 @@
 ---
-published: false
+published: true
+Layout: default
 ---
+
 
 ---
 layout: post
@@ -13,8 +15,3 @@ This is more and more simple than anything I have ever used.
 ###WHat's up, Canada?
 
 Why is it I have nothing more intelli to say?
-
-
-
-
-

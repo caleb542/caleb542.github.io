@@ -4,8 +4,6 @@ published: false
 
 
 ---
-layout: post
-
 title: Markdown Style Guide
 ---
 ##Who's your daddy-O?

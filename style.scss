@@ -18,9 +18,9 @@ html {
 }
 
 body {
-	background: #ff0000;
+	background:$white;
   font: 18px/1.4 $helvetica;
-  color: #333333;
+  color: #222222;
 }
 
 .container {
@@ -215,6 +215,9 @@ nav {
   margin-top: 23px; // @TODO: Vertically middle align
   font-family: $helveticaNeue;
   font-size: 18px;
+  padding:4px;
+  background:$blue;
+  color:$white;
 
   @include mobile {
     float: none;

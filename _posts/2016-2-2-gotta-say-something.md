@@ -10,4 +10,4 @@ Hi I really need to talk to you
 ## Shoppers
 Everything is on sale
 ### Sale Day Begins
-Fight for your right to a great deal
+Fight for your right to a great deal!

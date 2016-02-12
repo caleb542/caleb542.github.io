@@ -1,5 +1,5 @@
  ---
-layout: page
+layout: post
 title: Everybody Loves Raymond
 ---
     Hi I want to say something  

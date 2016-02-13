@@ -2,6 +2,7 @@
 layout: post
 title: Markdown Style Guide
 published: true
+pubished: true
 ---
 
 

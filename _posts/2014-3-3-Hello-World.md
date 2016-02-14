@@ -3,7 +3,7 @@ layout: post
 title: Markdown Style Guide
 ---
 
-This is a demo of all styled elements in Jekyll Now.
+This is a demo of all styled elements in Jekyll Now.  How long does this intro get to be?  i wouldn't be surprised if the phrase has to ake the entire p tag.
 
 [View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
 

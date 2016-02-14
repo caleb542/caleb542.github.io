@@ -3,14 +3,7 @@ published: true
 title: What it means to be me
 layout: default
 ---
-
-
-
----
-
-
-title: Markdown Style Guide
----
+ A journal article that I might wright if i had to say something autobiographical 
 ##Who's your daddy?
 
 This is more and more simple than anything I have ever used.

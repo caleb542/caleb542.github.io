@@ -1,12 +1,13 @@
 ---
 published: true
-title: Going Postal
+title: What it means to be me
+layout: default
 ---
 
 
 
 ---
-layout: post
+
 
 title: Markdown Style Guide
 ---

@@ -32,7 +32,8 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #80c2d8;
+  color: #ff0000;
+  text-shadow: 5px 5px 3px rgba(0,0,0,0.4);
   font-weight: bold;
 
   line-height: 1.7;

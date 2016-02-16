@@ -32,8 +32,7 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
-  color: #ff0000;
-  text-shadow: 2px 2px rgba(0,0,0,0.4);
+color: $headerblue;
   font-weight: bold;
 
   line-height: 1.7;
@@ -283,7 +282,7 @@ nav {
     border:1px solid #50a1c2;
    		
    		a{
-   			color:#fff;text-shadow:3px 3px 3px rgba(0,0,0,0.4) !important;
+   			color:#fff;
    		}
 	}
     

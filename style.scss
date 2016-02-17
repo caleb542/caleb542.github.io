@@ -31,9 +31,9 @@ html {
 
 body {
 	background:$chocolate;
-	font: 18px/1.4;
+	font: 18px/1.4 "Railway",sans-serif;
 	color:$white;
-	font-family:"Railway",sans-serif;
+	
 
 }
 
@@ -45,7 +45,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Railway', sans-serif;
+ 
   font-weight: 500;
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -86,7 +86,7 @@ a {
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: #ff0000;
+    color: purple;
   }
 }
 

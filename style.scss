@@ -82,11 +82,11 @@ p {
 }
 
 a {
-  color: $blue;
+  color: #fff;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
-    color: $blue;
+    color: #ff0000;
   }
 }
 
@@ -241,7 +241,7 @@ nav {
 
   a {
     margin-left: 15px;
-    color: #000;
+    color: #fff;
     text-align: right;
     font-weight: 300;
     letter-spacing: 1px;
@@ -291,13 +291,10 @@ nav {
     font-size: 15px;
     padding: 7px;
     border-radius: 11px;
-    background: #80c2d8;
-    border: 1px solid #50a1c2;
-   
+    background: transparent;
+    border: 0px solid #50a1c2;
    		
-   		a{
-   			color:#fff;
-   		}
+   	
 	}
     
   }

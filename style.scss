@@ -226,9 +226,9 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-weight:600;
+  font-weight: 600;
   font-size: 18px;
-  border:1px solid $white;
+  border: 1px solid $white;
  
 
   @include mobile {

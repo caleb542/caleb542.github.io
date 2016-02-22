@@ -1,10 +1,10 @@
 ---
 published: true
-title: What it means to be me
+title: Title number 1
 layout: default
 ---
  A journal article that I might wright if i had to say something autobiographical 
-## Who's your daddy?
+## What's next?
 This is more and more simple than anything I have ever used.
-### WHat's up, Canada?
-Why is it I have nothing more intelli to say?
+### New business
+Why is it I have nothing more today to say?

@@ -303,15 +303,17 @@ nav {
 
   
   }
-    
-  }
+}
 
 
 .wrapper-footer {
+  position: relative;
+  top:99%;
   margin-top: 50px;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: #ff4500;
+  width:100%;
 }
 
 footer {

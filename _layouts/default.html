@@ -36,6 +36,7 @@
 
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/posts/</a>
             <a href="{{ site.baseurl }}/about">About</a>
              <a href="{{ site.baseurl }}/contact">Contact</a>
           </nav>
@@ -44,7 +45,9 @@
     </div>
 
     <div id="main" role="main" class="container">
-      {{ content }}
+      <section class="pageHeight"
+           {{ content }}
+      </section>
     </div>
 
     <div class="wrapper-footer">

@@ -43,7 +43,18 @@ body {
   padding: 0 10px;
   width: 100%;
 }
+.background-images{
+position:absolute;
+top:0;
+padding:0;
 
+background-image:url(images/swinnypic_krakked_compressed.jpg);	
+background-repeat:no-repeat;
+background-size:cover;
+overflow:hidden;
+height:1080px;
+width:100%;
+}
 h1, h2, h3, h4, h5, h6 {
  
   font-weight: 500;

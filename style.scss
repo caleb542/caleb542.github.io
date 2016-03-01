@@ -60,6 +60,12 @@ height:1080px;
 width:100%;
 z-index:1;
 }
+section:nth-of-type(odd){
+	background:rgba(156,123,189,0.6);
+}
+section:nth-of-type(even){
+	background:rgba(255,0,0,0.5);
+}
 h1, h2, h3, h4, h5, h6 {
  
   font-weight: 500;

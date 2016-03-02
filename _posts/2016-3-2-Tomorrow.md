@@ -31,22 +31,5 @@ Inline markup styles:
 - **bold**
 - `code()`
 
-> She said it was the best day of her life
->> IT WAS THE BEST DAY OF HER LIFE
+> She said it was the best day of her life >> Simply. The. Best.
 
-
-```CODE:
-
-/* Some pointless Javascript */
-var rawr = ["r", "a", "w", "r"];
-var i = $(.me)+100;
-```
-
-Use two trailing spaces  
-on the right  
-to create linebreak tags  
-
-Finally, horizontal lines
-
-----
-****

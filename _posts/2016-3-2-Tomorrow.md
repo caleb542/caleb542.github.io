@@ -23,7 +23,7 @@ A link to [caleb pacman](http://calebhamilton.com/pacman). OR LITERALLY  <http:/
 
 An image, located within /images
 
-![LEFT WINGER]({{ site.baseurl }}/images/leftwing.svg "LEFT WINGER!!!")
+![LEFT WINGER]({{ site.baseurl }}/images/leftwing.svg "LEFT WINGER!!!")![RIGHT WINGER]({{ site.baseurl }}/images/rightwing.svg "RIGHT WINGER!!!")
 
 Inline markup styles:
 

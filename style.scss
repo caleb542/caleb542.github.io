@@ -307,7 +307,8 @@ nav {
     color: rgb(221, 160, 221);
     font-size: 22px;
     font-style: italic;
-    border-radius: 50%;
+    border-top-right-radius: 50%;
+     border-bottom-right-radius: 50%;
     background: rgba(255,255,255,0.4)
  
  }

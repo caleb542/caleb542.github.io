@@ -33,7 +33,12 @@
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
           </div>
-
+          <div class="tabs">
+					<ul class="list-inline">
+						<li class="active"><a data-toggle="tab" href="/#topic" aria-expanded="true">PENSION TOPIC</a></li>
+						<li class=""><a data-toggle="tab" href="/#type" aria-expanded="false">RESOURCE TYPE</a></li>
+					</ul>
+				</div>
           <nav>
             <a href="{{ site.baseurl }}/">Blog</a>
             <a href="{{ site.baseurl }}/posts/">Posts</a>
@@ -45,9 +50,14 @@
     </div>
 
     <div id="main" role="main" class="container">
-      <section class="pageHeight"
+      <section id="topic"class="pageHeight"
            {{ content }}
       </section>
+       <section id="type" class="pageHeight"
+           {{ content }}
+      </section>
+      
+              
     </div>
 
     <div class="wrapper-footer">

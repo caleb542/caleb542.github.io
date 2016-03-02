@@ -19,11 +19,11 @@ This is a paragraph, it's surrounded by whitespace. Next up are some headers, th
 
 
 
-A link to [caleb pacman](http://calebhamilton.com/pacman). OR LITERALLY  <http://gcalebhamilton.com/pacman/>
+A link to [caleb pacman](http://calebhamilton.com/pacman). OR LITERALLY  <http://calebhamilton.com/pacman/>
 
 An image, located within /images
 
-![an image alt text]({{ site.baseurl }}/images/leftwing.svg "LEFT WINGER")
+![LEFT WINGER]({{ site.baseurl }}/images/leftwing.svg "LEFT WINGER!!!")
 
 Inline markup styles:
 

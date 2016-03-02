@@ -37,16 +37,18 @@ body {
 
 }
 .pageHeight{
-	
 	    min-height: 63vh;
+		
+	
 }
 .container {
   position:relative;
   margin: 0 auto;
-  max-width: 740px;
-  padding: 0 10px;
+  max-width: 920px;
+  padding: 0;
   width: 100%;
   z-index:3;
+  box-sizing:border-box;
 }
 .background-images{
 position:fixed;
@@ -283,8 +285,8 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  padding: 1em 1em 2em 1em;
+  border-bottom: 0px solid $lightGray;
   overflow:hidden;
 }
 

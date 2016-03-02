@@ -3,13 +3,13 @@ layout: post
 title: Something new for today
 ---
 
-## Header 2 (H1 is reserved for post titles)##
+## Second header (H2)
 
-This is a demo of all styled elements in Jekyll Now.  How long does this intro get to be?  i wouldn't be surprised if the phrase has to ake the entire p tag.
+I am trying some things
 
-### Header 3
+### THird Header
 
-[View the markdown used to create this post](https://raw.githubusercontent.com/barryclark/www.jekyllnow.com/gh-pages/_posts/2014-6-19-Markdown-Style-Guide.md).
+[View the markdown used to create this post](#)
 
 #### Header 4
 

@@ -335,7 +335,14 @@ nav {
   }
 }
 
-
+#image-wrapper{
+	
+	
+}
+.crosshair{
+	background:transparent url({{site.base-url}}/images/1-px-image.png) repeat-y 20px 0, url url({{site.base-url}}/images/1-px-image.png) repeat-x 0 20px;
+	
+}
 .wrapper-footer {
   position: relative;
   top:99%;

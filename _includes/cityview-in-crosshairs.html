@@ -5,16 +5,17 @@
 	
 	</div>
 	<script>
-		console.log('hello world');
-		$(".crosshair").click(function(e){
+	
+		$(".crosshair").click(function(e){	console.log('hello world');
 			  var x = e.pageX - this.offsetLeft;
 			  var y = e.pageY - this.offsetTop;
+			  	console.log(xy);
 
 			  $(this).css({
 			  'background-position':'0 ' + y + ', ' + x + ' 0' 
 		 });
 
-		console.log(xy);	
+		
 		}); 
 
 	</script>

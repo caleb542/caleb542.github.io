@@ -7,7 +7,7 @@
 	<script>
 	
 		$(".crosshair").click(function(e){
-			var position = $(".crosshair").position();
+			var position = $(".crosshair").offset();
 			  var cx = position.left;
 			  var cy = position.top;	
 			  var x = e.pageX - this.offsetLeft;

@@ -6,13 +6,15 @@
 	</div>
 	<script>
 	
-		$(".crosshair").click(function(e){	console.log('hello world');
+		$(".crosshair").click(function(e){
+			  var cx = $(".crosshair").offsetLeft;
+			  var cy = $(".crosshair").offsetTop;	
 			  var x = e.pageX - this.offsetLeft;
 			  var y = e.pageY - this.offsetTop;
 			  	console.log('x'+ x +' & ' + y);
 
-			  $(this).css({
-			  'background-position': '0 ' + y + ',' + x + ' 0' 
+			  $('.crosshair').css({
+			  'background-position': '0 ' + (y - cy) + ',' + (x - cx) + ' 0' 
 		 });
 
 		

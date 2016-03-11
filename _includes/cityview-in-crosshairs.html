@@ -14,8 +14,10 @@
 			  var y = e.pageY - this.offsetTop;
 			  	console.log('x'+ x +' & ' + y);
 				console.log("cx = " + cx  +"& cy = " + cy +"!");
+				var coodinateX = x - cx;
+				var coordinateY = y - cy;
 			  $(".crosshair").css({
-			  backgroundPosition: '0 200px, 0 200px' 
+			  backgroundPosition: "0 " + coordinateX + "px, 0 " + "coordinateY + 'px' 
 		 });
 
 		

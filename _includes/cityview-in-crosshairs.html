@@ -19,7 +19,8 @@
 				var coordinateY = y - cy;
 			  $(".crosshair").css({
 			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
-			  transiton:coordinatedSpeed
+			 'transition':coordinatedSpeed,
+			'-webkit-transition':coordinatedSpeed
 		 });
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);

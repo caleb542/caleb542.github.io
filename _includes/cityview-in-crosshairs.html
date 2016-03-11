@@ -7,6 +7,7 @@
 	<script>
 	
 		$(".crosshair").click(function(e){
+			var coordinatedSpeed = '3s';
 			var position = $(".crosshair").offset();
 			  var cx = position.left;
 			  var cy = position.top;	
@@ -22,7 +23,7 @@
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").css({
-				'transition':'.5s',
+				'transition':coordinatedSpeed,
 				'-webkit-transition':'.5s',
 				position:'absolute',
 				left:'20px',

@@ -1,7 +1,7 @@
 
 <div class="crosshair">
 	<div id="image-wrapper">
-		<image src="/images/hk_investments.png" title="Cityview">
+		<image src="{{base_url}}/images/hk_investments.png" title="Cityview">
 	</div>
 	<script>
 	</script>

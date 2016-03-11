@@ -350,14 +350,18 @@ nav {
 	
 }
 .crosshair{
-	position:absolute;
-	width:inherit;
-	height:inherit;
-	display:block;
-	border:12px solid pink;
-	background-image:url("images/1-px-image.png"),url("images/1-px-image.png");
-	background-repeat:repeat-x,repeat-y;
-	background-position:0 20px, 20px 0;
+position: absolute;
+    width: inherit;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    border: 12px solid #FFC0CB; */
+    background-image: url("/images/1-px-image.png"), url("/images/1-px-image.png"); 
+    background-repeat: repeat-x,repeat-y; 
+    background-position: 0 20px, 20px 0; 
+    background: #008000;
+    z-index: 3
 	
 }
 .wrapper-footer {

@@ -340,9 +340,9 @@ nav {
 	
 }
 .crosshair{
-	position:relative;
-	width:auto;
-	height:auto;
+	position:absolute;
+	width:inherit;
+	height:inherit;
 	display:block;
 	border:12px solid pink;
 	background-image:url("images/1-px-image.png"),url("images/1-px-image.png");

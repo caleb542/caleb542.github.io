@@ -2,7 +2,8 @@
 layout: post
 title: Cityview
 ---
-({{ site.baseurl }}/images/hk_investments.png "City View")
+({{ site.baseurl }}/images/hk_investments.png)
+
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 
 ## Header 2 (H1 is reserved for post titles)##

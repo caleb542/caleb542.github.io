@@ -9,10 +9,10 @@
 		$(".crosshair").click(function(e){	console.log('hello world');
 			  var x = e.pageX - this.offsetLeft;
 			  var y = e.pageY - this.offsetTop;
-			  	console.log(xy);
+			  	console.log('x'+ x +' & ' + y);
 
 			  $(this).css({
-			  'background-position':'0 ' + y + ', ' + x + ' 0' 
+			  'background-position': '0 ' + y + ',' + x + ' 0' 
 		 });
 
 		

@@ -340,7 +340,9 @@ nav {
 	
 }
 .crosshair{
-	background-image:images/1-px-image.png) repeat-y 20px 0, url(images/1-px-image.png);
+	background-image:url("images/1-px-image.png"),url("images/1-px-image.png");
+	background-repeat:repeat-x,repeat-y;
+	background-position:0 20px, 20px 0;
 	
 }
 .wrapper-footer {

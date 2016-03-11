@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: geo-page
 title: Cityview
 ---
 ![City](https://raw.githubusercontent.com/caleb542/caleb542.github.io/master/images/hk_investments.jpg)

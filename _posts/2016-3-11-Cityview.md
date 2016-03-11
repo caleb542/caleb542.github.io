@@ -1,6 +1,6 @@
 ---
-layout:post
-title:Cityview
+layout: post
+title: Cityview
 ---
 ({{ site.baseurl }}/images/hk_investments.png "City View")
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.

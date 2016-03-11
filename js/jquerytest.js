@@ -7,10 +7,10 @@ function jquerytest(){
   }else{
     alert("This is a jquery test.  Would you like your " + ww + " pixel window washed?");
   }
-  
+  return ww;
 };
 
 $('.site-avatar').click( function() {
   
-  jquerytest(ww);
+  jquerytest('ww');
 });

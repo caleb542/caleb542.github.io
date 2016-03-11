@@ -10,7 +10,7 @@ function jquerytest(){
   
 };
 
-$('.site-avatar').click(){
+$('.site-avatar').click( function() {
   
   jquerytest(ww);
-}
+});

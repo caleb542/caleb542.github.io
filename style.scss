@@ -373,7 +373,13 @@ position: absolute;
 	left: 15px;
 	font-family: inherit;
 	font-size: 10px;
-	
+.crosshair .diamond{
+	position: absolute;
+	top: -5px;
+	left: -4pxpx;
+	font-family: inherit;
+
+	}	
 }
 .wrapper-footer {
   position: relative;

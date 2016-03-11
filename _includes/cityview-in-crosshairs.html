@@ -18,13 +18,14 @@
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
 			  $(".crosshair").css({
-			  backgroundPosition:coordinateX + "px  " + coordinateY + "px"
+			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
+			  transiton:coordinatedSpeed
 		 });
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").css({
 				'transition':coordinatedSpeed,
-				'-webkit-transition':'.5s',
+				'-webkit-transition':coordinatedSpeed,
 				position:'absolute',
 				left:'20px',
 				top:'-28px',

@@ -2,7 +2,7 @@
 layout: post
 title: Cityview
 ---
-({{ site.baseurl }}/images/hk_investments.png)
+![City]({{ site.baseurl }}/images/hk_investments.png)
 
 This is a paragraph, it's surrounded by whitespace. Next up are some headers, they're heavily influenced by GitHub's markdown style.
 

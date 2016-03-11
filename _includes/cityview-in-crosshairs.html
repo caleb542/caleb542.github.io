@@ -19,7 +19,8 @@
 			  $(".crosshair").css({
 			  backgroundPosition:coordinateX + "px " + coordinateY + "px"
 		 });
-			$(".crosshair .coordinateText").html("").fadeIn("" + x +"," + y);
+		 	var coordinateText = "" + x +"," + y;
+			$(".crosshair .coordinateText").fadeIn(coordinateText,200);
 		
 		}); 
 

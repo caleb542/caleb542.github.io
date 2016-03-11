@@ -336,18 +336,21 @@ nav {
 }
 
 #image-wrapper{
-	position:relative;
-	width:100%;
-	height:auto;
-	
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    z-index: 1;
+    background: #FFF;
+    margin: 0;
 }
 #image-wrapper img{
-	position:absolute;
-	top:0;
-	left:0;
-	width:inherit;
-	height:auto;
-	
+    position: relative;
+    top: 0;
+    left: 0;
+    width: inherit;
+    height: auto;
+    z-index: 2;
 }
 .crosshair{
 position: absolute;

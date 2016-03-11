@@ -367,20 +367,19 @@ position: absolute;
     transition: 0.5s;
 	
 }
-.crosshair .coordinateText{
+.crosshair .coordinateText {
 	position: absolute;
 	top: -20px;
 	left: 15px;
 	font-family: inherit;
 	font-size: 10px;
-.crosshair .diamond{
+}
+.crosshair .diamond {
 	position: absolute;
 	top: 16px;
 	left: 16px;
-
-
-	}	
 }
+
 .wrapper-footer {
   position: relative;
   top:99%;

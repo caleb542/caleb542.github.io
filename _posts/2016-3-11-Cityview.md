@@ -2,7 +2,4 @@
 layout: geo-page
 title: Cityview
 ---
-![City](https://raw.githubusercontent.com/caleb542/caleb542.github.io/master/images/hk_investments.jpg)
-
-That's a city.
-
+This is a templating experiment.  The idea is to have some crosshairs set over the image, and to be able to move them when we click a button.

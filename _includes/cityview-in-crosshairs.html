@@ -17,9 +17,9 @@
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
 			  $(".crosshair").css({
-			  backgroundPosition:coordinateX + "px " + coordinateY + "px"
+			  backgroundPosition:coordinateX + "px  " + coordinateY + "px"
 		 });
-		 	var coordinateText = "" + x +"," + y;
+		 	var coordinateText = "" + x +" .000° N," + y +  .000° E;
 			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").css({
 				'transition':'.5s',

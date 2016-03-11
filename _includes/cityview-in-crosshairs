@@ -1,7 +1,9 @@
-{% if site.cityview-in-crosshairs %}
+
 <div class="">
-	<div id="disqus_thread"></div>
-	
+	<div id="image-wrapper">
+		<image src="/images/hk_investments.png" title="Cityview">
+	</div>
+	<script>
 	</script>
 </div>
 {% endif %}

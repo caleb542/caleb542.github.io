@@ -5,8 +5,7 @@
 	  <div class="coordinateText"></div><div class="diamond">♦</div>
 	</div>
 	<script>
-
-
+	
 		$(".crosshair").click(function(e){
 		
 			var position = $(".crosshair").offset();
@@ -40,14 +39,21 @@
 					marginLeft:0
 				
 			}, 700);
-			$(".crosshair").animate({
-			  'background-position-x':coordinateX + "px",
-			  'background-position-y': coordinateY + "px"
-				}, 200, function(){
-					$('.crosshair .coordinateText').animate({
-						opacity:1
-					},300)
-				});
+			$('.crosshair .coordinateText').animate({
+						opacity:0
+					},50, function() {
+					
+						$(".crosshair").animate({
+							'background-position-x':coordinateX + "px",
+							'background-position-y': coordinateY + "px"
+							}, 700, function(){
+								$('.crosshair .coordinateText').animate({
+									opacity:1
+								},300)
+							})
+					
+				}
+				);
 		 	
 		}); 
 

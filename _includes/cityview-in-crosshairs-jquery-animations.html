@@ -18,7 +18,8 @@
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
 			  $(".crosshair").animate({
-			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
+			  'background-position-x':coordinateX + "px",
+			  'background-position-y': coordinateY + "px"
 			
 		 }, 700);
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";

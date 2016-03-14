@@ -5,8 +5,7 @@
 	  <div class="coordinateText"></div><div class="diamond">♦</div>
 	</div>
 	<script>
-	
-		$(".crosshair").click(function(e){
+	$(".crosshair").click(function(e){
 		
 			var position = $(".crosshair").offset();
 			  var cx = position.left;
@@ -19,44 +18,53 @@
 				var coordinateY = y - cy;
 				
 				
-			  
-			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
-			$(".crosshair .coordinateText").animate({
-				opacity:0,
-				position:'absolute',
-				left:(coordinateX - 20)  + 'px',
-				top:(coordinateY-28) + 'px'
+		//	$(".crosshair .coordinateText").animate({
+		//		opacity:0,
+		//		position:'absolute',
+		//		left:(coordinateX - 20)  + 'px',
+		//		top:(coordinateY-28) + 'px'
 		
 				
 				
 				
-			}, 700);
+		//	}, 700);
 			$(".crosshair .diamond").animate({
 					left:(coordinateX-4) + 'px',
 					top:(coordinateY-12) + 'px',
 					marginTop:0,
 					marginLeft:0
 				
-			}, 700);
+			}, 700); 
+			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+		
 			$('.crosshair .coordinateText').animate({
 						opacity:0
-					},50, function() {
+					},100, function() {
 					
 						$(".crosshair").animate({
 							'background-position-x':coordinateX + "px",
 							'background-position-y': coordinateY + "px"
 							}, 700, function(){
 								$('.crosshair .coordinateText').animate({
-									opacity:1
-								},300)
+										opacity:0,
+										position:'absolute',
+										left:(coordinateX - 20)  + 'px',
+										top:(coordinateY-28) + 'px'
+		
+								},1, function(){
+									$('.crosshair .coordinateText').animate({
+										opacity:1
+								
+										
+									},200)
 							})
 					
-				}
+				});
+				};
 				);
 		 	
 		}); 
-
 	</script>
 </div>
 

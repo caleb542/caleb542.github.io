@@ -20,7 +20,7 @@
 			  $(".crosshair").animate({
 			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
 			
-		 }, coordinateSpeed);
+		 }, 700);
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").animate({
@@ -32,7 +32,7 @@
 				
 				
 				
-			}, coordinateSpeed);
+			}, 700);
 			$(".crosshair .diamond").animate({
 					left:coordinateX + 'px',
 					top:coordinateY + 'px',
@@ -41,7 +41,7 @@
 					top:'-12px',
 					left:'-4px'
 				
-			}, coordinateSpeed)
+			}, 700)
 		
 		}); 
 

@@ -18,6 +18,7 @@
 				var coordinateY = y - cy;
 				
 				
+			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 
 			$(".crosshair .diamond").animate({
@@ -27,7 +28,6 @@
 					marginLeft:0
 				
 			}, 700); 
-			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 		
 			$('.crosshair .coordinateText').animate({
 						opacity:0.5

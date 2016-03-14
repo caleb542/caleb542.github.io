@@ -5,9 +5,9 @@
 	  <div class="coordinateText"></div><div class="diamond">♦</div>
 	</div>
 	<script>
-		var coordinatedSpeed = 700;
+
 		$(".crosshair").click(function(e){
-			var coordinatedSpeed = 700;
+		
 			var position = $(".crosshair").offset();
 			  var cx = position.left;
 			  var cy = position.top;	
@@ -17,12 +17,10 @@
 				console.log("cx = " + cx  +"& cy = " + cy +"!");
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
-			  $(".crosshair").animate({
-			  'background-position-x':coordinateX + "px",
-			  'background-position-y': coordinateY + "px"
-			
-		 }, 700);
-		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+				
+				
+			  
+			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").animate({
 		
@@ -40,8 +38,12 @@
 					marginTop:0,
 					marginLeft:0
 				
-			}, 700)
-		
+			}, 700);
+			$(".crosshair").animate({
+			  'background-position-x':coordinateX + "px",
+			  'background-position-y': coordinateY + "px"
+				}, 700);
+		 	
 		}); 
 
 	</script>

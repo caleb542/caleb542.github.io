@@ -6,6 +6,7 @@
 	</div>
 	<script>
 
+
 		$(".crosshair").click(function(e){
 		
 			var position = $(".crosshair").offset();
@@ -23,7 +24,7 @@
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").animate({
-		
+				opacity:0,
 				position:'absolute',
 				left:(coordinateX - 20)  + 'px',
 				top:(coordinateY-28) + 'px'
@@ -42,7 +43,11 @@
 			$(".crosshair").animate({
 			  'background-position-x':coordinateX + "px",
 			  'background-position-y': coordinateY + "px"
-				}, 200);
+				}, 200, function(){
+					$('.crosshair .coordinateText').animate({
+						opacity:1
+					},300)
+				});
 		 	
 		}); 
 

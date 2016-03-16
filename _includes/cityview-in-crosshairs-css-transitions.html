@@ -1,11 +1,9 @@
 
 <div id="image-wrapper">
 	<img src="{{ site.baseurl }}/images/any-map-image-red.jpg" title="Cityview">
-<div class="crosshair">
-	  <div class="horizontal"><!--//--></div>	
-	  <div class="vertical"><!--//--></div>
-	  <div class="coordinateText"><!--//--></div>
-	  <div class="diamond"><!--//--></div>
+	<div class="crosshair">
+		<div class="coordinateText"><!--//--></div>
+		<div class="diamond"><!--//--></div>
 	</div>
 </div>	
 	<script>
@@ -21,7 +19,7 @@
 				console.log("cx = " + cx  +"& cy = " + cy +"!");
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
-			  $("#image-wrapper, .crosshair .vertical, .horizontal").css({
+			  $("#image-wrapper, .crosshair").css({
 			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
 			 'transition':coordinatedSpeed,
 			'-webkit-transition':coordinatedSpeed

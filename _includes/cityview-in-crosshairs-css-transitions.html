@@ -21,13 +21,13 @@
 				console.log("cx = " + cx  +"& cy = " + cy +"!");
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
-			  $("#image-wrapper, .crosshair").css({
+			  $("#image-wrapper, .crosshair .vertical, .horizontal").css({
 			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
 			 'transition':coordinatedSpeed,
 			'-webkit-transition':coordinatedSpeed
 		 });
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-			$(".crosshair .coordinateText, .vertical, .horizontal").html(coordinateText);
+			$(".crosshair .coordinateText").html(coordinateText);
 			$(".crosshair .coordinateText").css({
 				'transition':coordinatedSpeed,
 				'-webkit-transition':coordinatedSpeed,

@@ -26,7 +26,7 @@
 		 });
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".css-crosshair .coordinateText").html(coordinateText);
-			$(".css-crosshair .coordinateText").css({
+			$(".css-crosshair .coordinateText, .diamond").css({
 				'transition':coordinatedSpeed,
 				'-webkit-transition':coordinatedSpeed,
 				position:'absolute',
@@ -37,16 +37,16 @@
 				
 				
 			});
-			$(".css-crosshair .diamond").css({
-					transform: 'translate(' + coordinateX +'px,' + coordinateY + 'px)',
-					'-webkit-transition': coordinatedSpeed,
-					'transition':coordinatedSpeed,
-					marginTop:0,
-					marginLeft:0,
-					top:'-12px',
-					left:'-4px'
-				
-			})
+	//		$(".css-crosshair .diamond").css({
+	//				transform: 'translate(' + coordinateX +'px,' + coordinateY + 'px)',
+	//				'-webkit-transition': coordinatedSpeed,
+	//				'transition':coordinatedSpeed,
+	//				marginTop:0,
+	//				marginLeft:0,
+	//				top:'-12px',
+	//				left:'-4px'
+	//			
+	//		})
 		
 		}); 
 

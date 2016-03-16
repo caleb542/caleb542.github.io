@@ -17,7 +17,7 @@
 		var coordinateX = x - cx;
 		var coordinateY = y - cy;
 		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-		$(".crosshair .coordinateText").html(coordinateText).css({
+		$(".crosshair .coordinateText").html(coordinateText).slideUp("slow").css({
 			display:'none',
 			position:'absolute',
 			left:(coordinateX)  + 10 + 'px',
@@ -25,13 +25,13 @@
 			});
 	
 	
-				$(".diamond, .vertical, .horizontal, .coordinateText").animate({
-					'background-position-x':coordinateX + "px",
-					'background-position-y': coordinateY + "px"
-					}, 50,'linear', function(){
-				$('.crosshair .coordinateText').slideDown("slow");
-				});
-			});	// should work
+		$(".diamond, .vertical, .horizontal, .coordinateText").animate({
+			'background-position-x':coordinateX + "px",
+			'background-position-y': coordinateY + "px"
+			}, 120,'linear', function(){
+		$('.crosshair .coordinateText').slideDown("slow");
+		});
+	});	// should work
 			
 		
 	</script>

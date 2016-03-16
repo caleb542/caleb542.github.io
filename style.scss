@@ -406,9 +406,18 @@ nav {
 }
 .crosshair .diamond {
 	
-	position: absolute;
-	margin-top: 8px;
-	margin-left: 16px;
+  position: absolute;
+    width: inherit;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: block;
+    background: rgba(0,0,0,0);
+    background-image: url("/images/diamond.png");
+    background-repeat: no-repeat;
+    background-position: 16px -24px; 
+    z-index: 3;
+    transition: 0.5s;
 }
 
 .wrapper-footer {

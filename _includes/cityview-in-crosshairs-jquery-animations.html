@@ -8,8 +8,14 @@
 	  <div class="diamond"><!--//--></div>
 	</div>
 	<script>
+	$(document).ready( function() {
+	var position = function(y){
+	var y = $(".crosshair").offset();
+	
+	}
+})
 	$(".crosshair").click(function(e){
-		var position = $(".crosshair").offset();
+		//var position = $(".crosshair").offset();
 		var cx = position.left;
 		var cy = position.top;	
 		var x = e.pageX - this.offsetLeft;

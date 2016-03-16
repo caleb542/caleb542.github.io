@@ -25,7 +25,9 @@
 					'background-position-x':coordinateX + "px",
 					'background-position-y': coordinateY + "px"
 					}, 50,'linear', function(){
-						$('.crosshair .coordinateText').animate({
+					//
+				});
+				$('.crosshair .coordinateText').animate({
 							position:'absolute',
 							left:(coordinateX + 20)  + 'px',
 							top:(coordinateY - 20) + 'px'
@@ -33,8 +35,7 @@
 							//	$('.crosshair .coordinateText').animate({
 							//		opacity:1
 							//	},50,'linear')
-						})
-				});
+						})	
 			});
 		}); 
 	</script>

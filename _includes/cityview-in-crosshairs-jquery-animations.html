@@ -1,6 +1,6 @@
 
 <div id="image-wrapper">
-	<img src="{{ site.baseurl }}/images/hk_investments.jpg" title="Cityview">
+	<img src="{{ site.baseurl }}/images/myimage.jpg" title="Cityview">
 	<div class="crosshair">
 	  <div class="horizontal"><!--//--></div>	
 	  <div class="vertical"><!--//--></div>
@@ -9,42 +9,33 @@
 	</div>
 	<script>
 	$(".crosshair").click(function(e){
-		
-			var position = $(".crosshair").offset();
-			  var cx = position.left;
-			  var cy = position.top;	
-			  var x = e.pageX - this.offsetLeft;
-			  var y = e.pageY - this.offsetTop;
-			  	console.log('x'+ x +' & ' + y);
-				console.log("cx = " + cx  +"& cy = " + cy +"!");
-				var coordinateX = x - cx;
-				var coordinateY = y - cy;
-				
-				
-			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-			$(".crosshair .coordinateText").html(coordinateText);
-			$('.crosshair .coordinateText').animate({
-				opacity:0
-				},5,'linear', function() {
-					$(".diamond, .vertical, .horizontal, .coordinateText").animate({
-						'background-position-x':coordinateX + "px",
-						'background-position-y': coordinateY + "px"
-						}, 250,'linear', function(){
-							$('.crosshair .coordinateText').animate({
-								position:'absolute',
-								left:(coordinateX + 20)  + 'px',
-								top:(coordinateY - 20) + 'px'
-								},100,'linear', function(){
-									$('.crosshair .coordinateText').animate({
-										opacity:1
-								
-										
-									},500,'linear')
-							})
-					
+		var position = $(".crosshair").offset();
+		var cx = position.left;
+		var cy = position.top;	
+		var x = e.pageX - this.offsetLeft;
+		var y = e.pageY - this.offsetTop;
+		var coordinateX = x - cx;
+		var coordinateY = y - cy;
+		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+		$(".crosshair .coordinateText").html(coordinateText);
+		$('.crosshair .coordinateText').animate({
+			opacity:0
+			},5,'linear', function() {
+				$(".diamond, .vertical, .horizontal, .coordinateText").animate({
+					'background-position-x':coordinateX + "px",
+					'background-position-y': coordinateY + "px"
+					}, 250,'linear', function(){
+						$('.crosshair .coordinateText').animate({
+							position:'absolute',
+							left:(coordinateX + 20)  + 'px',
+							top:(coordinateY - 20) + 'px'
+							},100,'linear', function(){
+								$('.crosshair .coordinateText').animate({
+									opacity:1
+								},500,'linear')
+						})
 				});
-				});
-		 	
+			});
 		}); 
 	</script>
 </div>

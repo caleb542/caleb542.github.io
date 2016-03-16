@@ -28,14 +28,14 @@
 			$('.crosshair .coordinateText').animate({
 						opacity:0
 					},10, function() {
-							$(".crosshair .diamond").animate({
-								left:(coordinateX-4) + 'px',
-								top:(coordinateY-12) + 'px',
-								marginTop:0,
-								marginLeft:0
+						//	$(".crosshair .diamond").animate({
+						//		left:(coordinateX-4) + 'px',
+						//		top:(coordinateY-12) + 'px',
+						//		marginTop:0,
+						//		marginLeft:0
 				
-							}, 500); 
-						$(".crosshair .vertical, .crosshair .horizontal, .crosshair .coordinateText").animate({
+					//		}, 500); 
+						$(".diamond, .crosshair .vertical, .crosshair .horizontal, .crosshair .coordinateText").animate({
 							'background-position-x':coordinateX + "px",
 							'background-position-y': coordinateY + "px"
 							}, 500, function(){
@@ -50,7 +50,7 @@
 										opacity:1
 								
 										
-									},10)
+									},200)
 							})
 					
 				});

@@ -23,29 +23,23 @@
 				
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
-
-	
-		
 			$('.crosshair .coordinateText').animate({
-						opacity:0
-					},5,'linear', function() {
-					
-						$(".diamond, .vertical, .horizontal, .coordinateText").animate({
-							'background-position-x':coordinateX + "px",
-							'background-position-y': coordinateY + "px"
-							}, 250,'linear', function(){
-								$('.crosshair .coordinateText').animate({
-									
-										position:'absolute',
-										left:(coordinateX + 20)  + 'px',
-										top:(coordinateY - 20) + 'px'
-		
-								},0,'linear', function(){
+				opacity:0
+				},5,'linear', function() {
+					$(".diamond, .vertical, .horizontal, .coordinateText").animate({
+						'background-position-x':coordinateX + "px",
+						'background-position-y': coordinateY + "px"
+						}, 250,'linear', function(){
+							$('.crosshair .coordinateText').animate({
+								position:'absolute',
+								left:(coordinateX + 20)  + 'px',
+								top:(coordinateY - 20) + 'px'
+								},100,'linear', function(){
 									$('.crosshair .coordinateText').animate({
 										opacity:1
 								
 										
-									},100,'linear')
+									},500,'linear')
 							})
 					
 				});

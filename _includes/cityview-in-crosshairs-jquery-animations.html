@@ -25,7 +25,7 @@
 					}, 50,'linear', function(){
 			
 				});
-				$('.crosshair .coordinateText').animate({
+				$('.crosshair .coordinateText').slideDown(slow, function() {
 							position:'absolute',
 							left:(coordinateX)  + 10 + 'px',
 							top:(coordinateY) - 15 + 'px'

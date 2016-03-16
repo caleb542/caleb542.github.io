@@ -9,12 +9,12 @@
 	</div>
 	<script>
 	$(document).ready( function() {
-	var position = function(y){
+	var position = function(){
 	var y = $(".crosshair").offset();
-	
+	return y;
 	}
 })
-	$(".crosshair").click(function(e){
+	$(".crosshair").click(function(e, 'position'){
 		//var position = $(".crosshair").offset();
 		var cx = position.left;
 		var cy = position.top;	

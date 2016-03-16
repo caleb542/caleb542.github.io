@@ -28,18 +28,12 @@
 		
 			$('.crosshair .coordinateText').animate({
 						opacity:0
-					},10, function() {
-						//	$(".crosshair .diamond").animate({
-						//		left:(coordinateX-4) + 'px',
-						//		top:(coordinateY-12) + 'px',
-						//		marginTop:0,
-						//		marginLeft:0
-				
-					//		}, 500); 
-						$(".diamond, .crosshair .vertical, .crosshair .horizontal, .crosshair .coordinateText").animate({
+					},5, function() {
+					
+						$(".diamond, .vertical, .horizontal, .coordinateText").animate({
 							'background-position-x':coordinateX + "px",
 							'background-position-y': coordinateY + "px"
-							}, 500, function(){
+							}, 250, function(){
 								$('.crosshair .coordinateText').animate({
 									
 										position:'absolute',
@@ -51,7 +45,7 @@
 										opacity:1
 								
 										
-									},200)
+									},100)
 							})
 					
 				});

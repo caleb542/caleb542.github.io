@@ -8,13 +8,12 @@
 	  <div class="diamond"><!--//--></div>
 	</div>
 	<script>
-	$(document).ready( function() {
-	var position = function(){
-	var y = $(".crosshair").offset();
-	return y;
-	}
+
+	var position = $(".crosshair").offset();
+
+	
 })
-	$(".crosshair").click(function(e, 'position'){
+	$(".crosshair").click(function(e){
 		//var position = $(".crosshair").offset();
 		var cx = position.left;
 		var cy = position.top;	

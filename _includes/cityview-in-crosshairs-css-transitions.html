@@ -1,16 +1,16 @@
 
 <div id="image-wrapper">
 	<img src="{{ site.baseurl }}/images/any-map-image-red.jpg" title="Cityview">
-	<div class="crosshair">
+	<div class="css-crosshair">
 		<div class="coordinateText"><!--//--></div>
 		<div class="diamond"><!--//--></div>
 	</div>
 </div>	
 	<script>
 	
-		$(".crosshair").click(function(e){
+		$(".css-crosshair").click(function(e){
 			var coordinatedSpeed = '.7s';
-			var position = $(".crosshair").offset();
+			var position = $(".css-crosshair").offset();
 			  var cx = position.left;
 			  var cy = position.top;	
 			  var x = e.pageX - this.offsetLeft;
@@ -19,14 +19,14 @@
 				console.log("cx = " + cx  +"& cy = " + cy +"!");
 				var coordinateX = x - cx;
 				var coordinateY = y - cy;
-			  $("#image-wrapper, .crosshair").css({
+			  $("#image-wrapper, .css-crosshair").css({
 			  backgroundPosition:coordinateX + "px  " + coordinateY + "px",
 			 'transition':coordinatedSpeed,
 			'-webkit-transition':coordinatedSpeed
 		 });
 		 	var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-			$(".crosshair .coordinateText").html(coordinateText);
-			$(".crosshair .coordinateText").css({
+			$(".css-crosshair .coordinateText").html(coordinateText);
+			$(".css-crosshair .coordinateText").css({
 				'transition':coordinatedSpeed,
 				'-webkit-transition':coordinatedSpeed,
 				position:'absolute',
@@ -37,7 +37,7 @@
 				
 				
 			});
-			$(".crosshair .diamond").css({
+			$(".css-crosshair .diamond").css({
 					transform: 'translate(' + coordinateX +'px,' + coordinateY + 'px)',
 					'-webkit-transition': coordinatedSpeed,
 					'transition':coordinatedSpeed,

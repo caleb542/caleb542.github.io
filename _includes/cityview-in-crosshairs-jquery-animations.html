@@ -31,10 +31,12 @@
 		$(".diamond, .vertical, .horizontal").animate({
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px",
-			'opacity':'0.5'
+			'opacity':'0.4',
+			'color':'red'
 			}, 430,'linear', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
-				'opacity':1
+				'opacity':1,
+				'color':'#fff'
 			},100, function(){
 				$('.crosshair .coordinateText').delay(600).slideDown("430");
 			});

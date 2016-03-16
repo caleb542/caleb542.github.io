@@ -31,14 +31,12 @@
 		$(".diamond, .vertical, .horizontal").animate({
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px",
-			'opacity':'0.4',
-			'color':'red'
+			'opacity':'0.1'
 			}, 1430,'linear', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
-				'opacity':1,
-				'color':'#fff'
+				'opacity':1
 			},300, function(){
-				$('.crosshair .coordinateText').delay(600).slideDown("1430");
+				$('.crosshair .coordinateText').delay(1000).slideDown(1000);
 			});
 		});
 	});		// should work now

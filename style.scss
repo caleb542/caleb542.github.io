@@ -367,6 +367,20 @@ nav {
     transition: 0.5s;
 	
 }
+.css-crosshair .diamond{
+    position: absolute;
+    width: inherit;
+    height: 100%;
+    top: -4px;
+    left: -4px;
+    display: block;
+    background: rgba(0,0,0,0);
+    background-image: url("/images/diamond.png");
+    background-repeat: no-repeat;
+    background-position: 20px -20px; 
+    z-index: 3;
+    transition: 0.5s;
+    }
 .crosshair {
     position: absolute;
     width: inherit;
@@ -375,12 +389,7 @@ nav {
     left: 0;
     display: block;
     background: rgba(0,0,0,0);
-   // background-image: url("/images/1-px-image.png"), url("/images/1-px-image.png"); 
-   // background-repeat: repeat-x,repeat-y; 
-   // background-position: 0 20px, 20px 0; 
     z-index: 3;
-  //  transition: 0.5s;
-	
 }
 .crosshair .vertical{
     position: absolute;

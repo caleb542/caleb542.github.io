@@ -34,23 +34,23 @@
 								marginTop:0,
 								marginLeft:0
 				
-							}, 700); 
+							}, 0); 
 						$(".crosshair .vertical, .crosshair .horizontal, .crosshair .coordinateText").animate({
 							'background-position-x':coordinateX + "px",
 							'background-position-y': coordinateY + "px"
-							}, 700, function(){
+							}, 100, function(){
 								$('.crosshair .coordinateText').animate({
 									
 										position:'absolute',
 										left:(coordinateX - 20)  + 'px',
 										top:(coordinateY-28) + 'px'
 		
-								},500, function(){
+								},0, function(){
 									$('.crosshair .coordinateText').animate({
 										opacity:1
 								
 										
-									},200)
+									},10)
 							})
 					
 				});

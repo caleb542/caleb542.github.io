@@ -360,11 +360,11 @@ nav {
     left: 0;
     display: block;
     background: rgba(0,0,0,0);
-    background-image: url("/images/1-px-image.png"), url("/images/1-px-image.png"); 
-    background-repeat: repeat-x,repeat-y; 
-    background-position: 0 20px, 20px 0; 
+   // background-image: url("/images/1-px-image.png"), url("/images/1-px-image.png"); 
+   // background-repeat: repeat-x,repeat-y; 
+   // background-position: 0 20px, 20px 0; 
     z-index: 3;
-    transition: 0.5s;
+  //  transition: 0.5s;
 	
 }
 .crosshair .vertical{
@@ -382,7 +382,7 @@ nav {
     transition: 0.5s;
 	
 }
-.crosshair .vertical{
+.crosshair .horizontal{
     position: absolute;
     width: inherit;
     height: 100%;

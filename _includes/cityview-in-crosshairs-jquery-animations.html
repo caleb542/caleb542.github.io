@@ -28,24 +28,24 @@
 		
 			$('.crosshair .coordinateText').animate({
 						opacity:0
-					},5, function() {
+					},5,'linear', function() {
 					
 						$(".diamond, .vertical, .horizontal, .coordinateText").animate({
 							'background-position-x':coordinateX + "px",
 							'background-position-y': coordinateY + "px"
-							}, 250, function(){
+							}, 250,'linear', function(){
 								$('.crosshair .coordinateText').animate({
 									
 										position:'absolute',
 										left:(coordinateX + 20)  + 'px',
 										top:(coordinateY - 20) + 'px'
 		
-								},0, function(){
+								},0,'linear', function(){
 									$('.crosshair .coordinateText').animate({
 										opacity:1
 								
 										
-									},100)
+									},100,'linear')
 							})
 					
 				});

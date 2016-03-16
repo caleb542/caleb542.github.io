@@ -23,18 +23,18 @@
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText);
 
-		//	$(".crosshair .diamond").animate({
-		//			left:(coordinateX-4) + 'px',
-		//			top:(coordinateY-12) + 'px',
-		//			marginTop:0,
-		//			marginLeft:0
-				
-		//	}, 700); 
+	
 		
 			$('.crosshair .coordinateText').animate({
 						opacity:0
-					},100, function() {
-					
+					},0, function() {
+							$(".crosshair .diamond").animate({
+								left:(coordinateX-4) + 'px',
+								top:(coordinateY-12) + 'px',
+								marginTop:0,
+								marginLeft:0
+				
+							}, 700); 
 						$(".crosshair .vertical, .crosshair .horizontal, .crosshair .coordinateText, .crosshair .diamond").animate({
 							'background-position-x':coordinateX + "px",
 							'background-position-y': coordinateY + "px"
@@ -45,7 +45,7 @@
 										left:(coordinateX - 20)  + 'px',
 										top:(coordinateY-28) + 'px'
 		
-								},1, function(){
+								},500, function(){
 									$('.crosshair .coordinateText').animate({
 										opacity:1
 								

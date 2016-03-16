@@ -17,20 +17,22 @@
 		var coordinateX = x - cx;
 		var coordinateY = y - cy;
 		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-		$(".crosshair .coordinateText").html(coordinateText);
+		$(".crosshair .coordinateText").html(coordinateText).css({
+			display:none;
+			position:'absolute',
+			left:(coordinateX)  + 10 + 'px',
+			top:(coordinateY) - 15 + 'px'
+			});
+		});
 	
 				$(".diamond, .vertical, .horizontal, .coordinateText").animate({
 					'background-position-x':coordinateX + "px",
 					'background-position-y': coordinateY + "px"
 					}, 50,'linear', function(){
-			
+				$('.crosshair .coordinateText').slideDown("slow");
 				});
-				$('.crosshair .coordinateText').slideDown("slow", function() {
-						//	position:'absolute',
-						//	left:(coordinateX)  + 10 + 'px',
-						//	top:(coordinateY) - 15 + 'px'
-						//	},50,'linear')	;
-			});
+			
+			
 		
 	</script>
 </div>

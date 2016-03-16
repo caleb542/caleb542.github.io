@@ -32,9 +32,14 @@
 	
 		$(".diamond, .vertical, .horizontal").animate({
 			'background-position-x':coordinateX + "px",
-			'background-position-y': coordinateY + "px"
+			'background-position-y': coordinateY + "px",
+			'opacity':'0.5'
 			}, 230,'linear', function(){
-			$('.crosshair .coordinateText').delay(400).slideDown("230");
+			$(".diamond, .vertical, .horizontal").animate({	
+				'opacity':1
+			},100, function(){
+				$('.crosshair .coordinateText').delay(400).slideDown("230");
+			
 		});
 	});	// should work
 			

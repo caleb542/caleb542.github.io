@@ -25,19 +25,22 @@
 			position:'absolute',
 			left:(coordinateX)  + 10 + 'px',
 			top:(coordinateY) - 15 + 'px'
-			});
+		});
 	
 	
 		$(".diamond, .vertical, .horizontal").animate({
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px",
-			'opacity':'0.1'
+			'background-position': coordinateX + "px " + coordinateY + "px", 
+			'opacity':'0.1',
+			'-moz-opacity':'0.1'
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
-				'opacity':1
+				'opacity':1,
+				'-moz-opacity':1
 			},100, function(){
 				$('.crosshair .coordinateText').delay(1400).slideDown(600);
-				});
+			});
 		});
 	});		// should work now
 	</script>

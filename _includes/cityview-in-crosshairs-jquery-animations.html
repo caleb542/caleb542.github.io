@@ -26,12 +26,12 @@
 			left:(coordinateX)  + 10 + 'px',
 			top:(coordinateY) - 15 + 'px'
 		});
-		$(".diamond").animate({
+		$(".diamond, .horizontal, .vertical").animate({
 		
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px",
 			'background-position': coordinateX + "px " + coordinateY + "px",
-			'-moz-transition': 'all 500ms ease' ,
+			'-moz-transition': '500ms ease' ,
 			'opacity':'0.1'
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	

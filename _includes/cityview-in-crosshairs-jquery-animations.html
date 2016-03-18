@@ -26,16 +26,7 @@
 			left:(coordinateX)  + 10 + 'px',
 			top:(coordinateY) - 15 + 'px'
 		});
-		//FF BEGINS
-		$(".diamond, .horizontal, .vertical").css({
-		
-			'-moz-background-position-x':coordinateX + "px",
-			'-moz-background-position-y': coordinateY + "px",
-			'-moz-background-position': coordinateX + "px " + coordinateY + "px",
-			'-moz-transition': '500' ,
-			'opacity':'0.1'
-			});
-		//ENDS FF
+	
 		$(".diamond, .horizontal, .vertical").animate({
 		
 			'background-position-x':coordinateX + "px",
@@ -49,6 +40,17 @@
 			},100, function(){
 				$('.crosshair .coordinateText').delay(20).slideDown(600);
 			});
+			
+				//FF BEGINS
+		$(".diamond, .horizontal, .vertical").css({
+		
+			'-moz-background-position-x':coordinateX + "px",
+			'-moz-background-position-y': coordinateY + "px",
+			'-moz-background-position': coordinateX + "px " + coordinateY + "px",
+			'-moz-transition': '500' ,
+			'opacity':'0.1'
+			});
+		//ENDS FF
 		});
 	});// should work now
 	</script>

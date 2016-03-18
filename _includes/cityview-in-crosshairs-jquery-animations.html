@@ -31,13 +31,13 @@
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px",
 			'background-position': coordinateX + "px " + coordinateY + "px",
-			'-moz-transition': '0.5s' ,
+			'-moz-transition': '500' ,
 			'opacity':'0.1'
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
 				'opacity':1
 			},100, function(){
-				$('.crosshair .coordinateText').delay(1400).slideDown(600);
+				$('.crosshair .coordinateText').delay(20).slideDown(600);
 			});
 		});
 	});// should work now

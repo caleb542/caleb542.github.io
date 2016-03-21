@@ -10,3 +10,204 @@ layout: default
     {{ content }}
   </div>
 </article>
+<script>
+  
+
+	
+
+	
+
+	<script type="text/javascript">
+		// <![CDATA[
+			//var windoww = $(window).width();
+//var bodyw = $('body').width();
+
+//alert("window w = " + windoww + "\n bodyw = " + bodyw);
+
+			var FullPageCarousel = (function(){
+
+	// touch-swipe handler
+	function setupFullPageCarouselSwipe(){
+		if (typeof Hammer != 'function') return;
+		$('div.red-O-overlay').each(function(){
+			var randomID='_'+randomString();
+			var t=$(this)
+				t.attr('id', randomID);// attach an ID to every carousel on the page
+			var hammerFullPageCarousel=new Hammer(document.getElementById(randomID));
+			
+			hammerFullPageCarousel.onswipe=function(e){
+				var b=t.parents('div.fullPageCarousel').find('ol.fullPageCarousel-dots li.selected');// selected button container
+				var s=t.parents('div.fullPageCarousel').find('ol.fullPageCarousel-dots li');// LI siblings
+				var p=s.index(b);// position
+				if (e.direction == 'left'){
+					if (p+1 < s.length){// room on right
+						$(s[p+1]).find('a').click();// select button on right
+					}else{// no room on right
+						$(s[0]).find('a').click();// select first button
+					}
+				}else if (e.direction == 'right'){
+					if (p-1 >= 0){// room on left
+						$(s[p-1]).find('a').click();// select button on left
+					}else{// no room on left
+						$(s[s.length-1]).find('a').click();// select last button
+					}
+				}
+				resetFullPageCarouselTimer();// clear the slide timer
+			}
+		});
+	}
+
+	function FullPageCarouselTimer(){
+		$('div.fullPageCarousel').each(function(){
+			var t=$(this)
+			var b=t.find('ol.fullPageCarousel-dots li.selected');// selected button container
+			var s=t.find('ol.fullPageCarousel-dots li');// LI siblings
+			var p=s.index(b);// position
+			var carousel=t.find('div.fullPageCarousel-carousel ol');
+			if (p+1 < s.length){// room on right
+				$(s[p+1]).find('a').click();// select button on right
+			}else{// no room on right
+				$(s[0]).find('a').click();// select first button
+			}
+		});
+	}
+
+	function clearFullPageCarouselTimer(){
+		if (window.__fullPageCarousel_interval) clearInterval(window.__fullPageCarousel_interval);// clear the slide timer
+	}
+
+	function resetFullPageCarouselTimer(){
+		clearFullPageCarouselTimer();
+		window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, $('input#fullPageCarouselTimer').val()*1000);// set the slide timer
+	}
+	
+	
+	function setUp(){
+		var desktopImageHeight = window._imageHeight;
+		var desktopImageWidth = window._imageWidth;
+		var coeff = desktopImageHeight / desktopImageWidth;
+		var winWidth = $(window).width();
+	
+			if(($('html').hasClass('wurfl-mobile'))){		
+				
+				var liWidth = $('.wurfl-mobile div.fullPageCarousel-carousel ol li').width();
+				
+				if(winWidth !== liWidth){ //if the adjustment has not already been made
+					liWidth = winWidth;
+					var newHeight = winWidth * coeff; //mobile
+					adjustWidthHeight(liWidth,newHeight);
+				}
+				
+			}
+			else if( $('html').hasClass('desktop') ){
+				
+					$('.fullPageCarousel, .fullPageCarousel-carousel').css({
+					'height':desktopImageHeight  
+					});
+			};
+			function adjustWidthHeight(winWidth, newHeight, liWidth) { //mobile
+				var carouselLength = $('.fullPageCarousel-carousel ol li').length;
+				$('html.wurfl-mobile div.fullPageCarousel').css({  'width':winWidth });
+				$('html.wurfl-mobile div.fullPageCarousel-carousel ol li').css({  'width':winWidth, height:newHeight });
+				$('.wurfl-mobile div.fullPageCarousel-carousel ol li').css({
+					'width':winWidth,
+					'height':newHeight
+				});
+				
+				$('.wurfl-mobile div.fullPageCarousel-carousel ol').css({
+					'width':(winWidth * carouselLength)				
+			});
+			
+		};
+	//};
+	
+
+		$('div.fullPageCarousel').each(function(){
+		
+			var speed = 500;
+			var easing = 'swing';
+			var t = $(this);
+			var w = null;
+				if($('html').hasClass('wurfl-mobile')){
+					w = $(window).width();
+				}else{
+					w = t.width();
+				}
+			var content = null;
+				content = t.find('div.fullPageCarousel-carousel ol');
+			var contentItems = content.find('li');
+			if (t.attr('cloned') != 'true'){
+				var firstSpotlight = $(contentItems[0]).clone(true);
+					content.append(firstSpotlight);
+				t.attr('cloned', 'true');
+			}
+			content.css({ 'width': (contentItems.length+1) * content.width() +'px' });
+				
+			var dots=t.find('ol.fullPageCarousel-dots li');
+			dots.find('a').off();
+			dots.find('a').on('click', function(){
+				if (window.__fullPageCarouselAnimation == true) return;
+				else window.__fullPageCarouselAnimation = true;
+				
+				var currentSelected = dots.index($(this).parents('ol').find('li.selected'));
+				var clickPosition = dots.index($(this).parent());
+
+				dots.removeClass('selected');
+
+				// change the details content
+				$('div.fullPageCarousel-details h1').replaceWith($(contentItems[clickPosition]).find('h1').clone(true));
+				$('div.fullPageCarousel-details div').replaceWith($(contentItems[clickPosition]).find('div').clone(true));
+				$('div.fullPageCarousel-details a').replaceWith($(contentItems[clickPosition]).find('a').clone(true));
+				
+				$('div.fullPageContent .coordinatesText span').replaceWith($(contentItems[clickPosition]).find('.coordinatesText span').clone(true));
+				
+				var slidePosition = (clickPosition == 0) ? ((currentSelected<=1) ? 0 : (-(dots.length)*w)) : (-clickPosition * w );
+				
+				window.__fullPageCarouselAnimation = true;
+				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
+					if (clickPosition == 0) content.css({'margin-left': 0});
+					window.__fullPageCarouselAnimation = false;
+				});
+				$(this).parent().addClass('selected');
+
+				return false;
+			});
+		}).hover(function(e){
+			clearFullPageCarouselTimer();
+		},function(e){
+			setTimeout(function(){
+				resetFullPageCarouselTimer();
+			},100);
+		});
+		if ($('div.fullPageCarousel').length > 0){
+			setupFullPageCarouselSwipe();
+			resetFullPageCarouselTimer();
+		}
+	
+	};	
+	var init = function(){
+		setUp();
+		
+		// add a resize window hook
+		$(window).resize(function(){
+			setUp();
+		});
+		
+		if (typeof window.orientation !== 'undefined'){
+			document.addEventListener('orientationchange', function(){
+				$('div.fullPageCarousel div.fullPageCarousel-carousel ol li:last-child').remove();
+				$('div.fullPageCarousel').attr('cloned', 'false');
+				setUp();
+			});
+		}
+	};
+
+	return {
+		init: init
+	};	
+})();
+		// ]]>
+	</script>
+
+
+</script>

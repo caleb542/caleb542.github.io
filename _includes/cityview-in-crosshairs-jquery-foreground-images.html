@@ -25,8 +25,8 @@
 			top:(coordinateY) - 15 + 'px'
 		});
 	
-		$(".diamond, .horizontal, .vertical").animate({
-	
+		$(".crosshair img").animate({
+			transform: "translate(" + coordinateX + "," +  coordinateY + ")"
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
 				'opacity':1
@@ -35,7 +35,7 @@
 			});
 			
 				//FF BEGINS
-		$(".diamond, .horizontal, .vertical").css({
+		$(".crosshair img").css({
 		
 			});
 		//ENDS FF

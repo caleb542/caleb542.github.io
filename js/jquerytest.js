@@ -16,7 +16,7 @@ function tw(){
 		position:'relative',
 		'z-index':4,
 		left:'100%',
-		ease:Elastic.easeOut
+		ease:easeInOut
 			
 		})
 	

@@ -21,7 +21,7 @@ function tw(){
 		})
 	
 }
-$('.site-avatar').click( function() {
- alert('click');
+$('.site-info').click( function() {
+
   tw();
 });

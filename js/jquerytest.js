@@ -17,14 +17,14 @@ function tw(){
 		display:'block',
 		position:'relative',
 		'z-index':4,
-		float:left,
+		float:'left',
 		ease: Power0.easeNone
 		})
 		TweenMax.to(info,2, {
 		display:'block',
 		position:'relative',
 		'z-index':4,
-		float:right,
+		float:'right',
 		ease: Power0.easeNone
 		})
 		

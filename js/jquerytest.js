@@ -9,8 +9,9 @@
 };
 
 */
+var logo = $('.site-avatar');
 function tw(){
-	  TweenMax.to(.site-avatar, 2, {
+	  TweenMax.to(logo, 2, {
 	
 		//	'background-position-x':coordinateX + "px",
 		//	'background-position-y': coordinateY + "px",

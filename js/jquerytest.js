@@ -15,7 +15,7 @@ function tw(){
 		display:'block',
 		position:'relative',
 		'z-index':4,
-		left:'100%,
+		left:'100%',
 		ease:Bounce.easeInOut
 			
 		})

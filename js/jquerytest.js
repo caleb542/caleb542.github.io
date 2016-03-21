@@ -1,4 +1,4 @@
-function jquerytest(){
+/*function jquerytest(){
   var ww = $(window).width();
   if(ww<0){
     alert("This window is impossibly small");
@@ -8,10 +8,9 @@ function jquerytest(){
   return ww;
 };
 
-
-$('.site-avatar').click( function() {
-  //jquerytest('ww');
-  TweenMax.to(crosshairs, .5, {
+*/
+function tw(){
+	  TweenMax.to(crosshairs, .5, {
 	
 		//	'background-position-x':coordinateX + "px",
 		//	'background-position-y': coordinateY + "px",
@@ -19,4 +18,9 @@ $('.site-avatar').click( function() {
 			ease:Bounce.easeInOut
 			
 		})
+	
+}
+$('.site-avatar').click( function() {
+  //jquerytest('ww');
+  tw();
 });

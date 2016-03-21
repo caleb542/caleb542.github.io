@@ -22,7 +22,8 @@ function tw(){
 		ease: Power0.easeNone
 		})
 	//use the defaults
-TweenLite.to(info_h1, 4, {scrambleText:{text:"Caleb G Hamilton,", chars:"0123456789",  ease:Linear.easeNone}})
+	TweenLite.to(info_h1, 1, {scrambleText:"THIS IS NEW TEXT"}); 
+
 		
 	
 }

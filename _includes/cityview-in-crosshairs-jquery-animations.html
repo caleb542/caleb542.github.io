@@ -26,8 +26,14 @@
 			left:(coordinateX)  + 10 + 'px',
 			top:(coordinateY) - 15 + 'px'
 		});
-	
-		$(".diamond, .horizontal, .vertical").animate({
+		
+	TweenMax.to(".diamond, .horizontal, .vertical", 3, {
+			'background-position-x':coordinateX + "px",
+			'background-position-y': coordinateY + "px",
+			'background-position': coordinateX + "px " + coordinateY + "px"
+		
+	})
+	/*	$(".diamond, .horizontal, .vertical").animate({
 		
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px",
@@ -41,18 +47,10 @@
 				$('.crosshair .coordinateText').delay(20).slideDown(600);
 			});
 			
-				//FF BEGINS
-		$(".diamond, .horizontal, .vertical").css({
-		
-			'-moz-background-position-x':coordinateX + "px",
-			'-moz-background-position-y': coordinateY + "px",
-			'-moz-background-position': coordinateX + "px " + coordinateY + "px",
-			'-moz-transition': '500' ,
-			'opacity':'0.1'
-			});
-		//ENDS FF
-		});
-	});// should work now
+	
+	
+		});*/
+	}); 
 	</script>
 </div>
 

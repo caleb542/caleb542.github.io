@@ -24,7 +24,7 @@ function tw(){
 		display:'block',
 		position:'relative',
 		'z-index':4,
-		float:right;
+		float:right,
 		ease: Power0.easeNone
 		})
 		

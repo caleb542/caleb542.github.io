@@ -11,7 +11,7 @@
 */
 var logo = $('.site-avatar');
 function tw(){
-	  TweenMax.to(logo, 3, {
+	  TweenMax.to(logo, 6, {
 		display:'block',
 		position:'relative',
 		'z-index':4,

@@ -14,16 +14,11 @@ var info = $('.site-info');
 var info_h1 = $('.site-info h1');
 var nav = $('nav');
 function tw(){
-/*	  TweenMax.to(nav, 2.3, {
-		display:'block',
-		position:'relative',
-		'z-index':4,
-		float:'left',
+	  TweenMax.to(".entry", 2.3, {
+	
+		textAlign: 'center',
 		ease: Power0.easeNone
-		})*/
-	//use the defaults
-	TweenLite.to(info_h1, 1, {scrambleText:"THIS IS NEW TEXT"}); 
-
+		})
 		
 	
 }

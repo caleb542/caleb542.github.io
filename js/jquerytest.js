@@ -17,7 +17,7 @@ function tw(){
 		display:'block',
 		position:'relative',
 		'z-index':4,
-		float:left;
+		float:left,
 		ease: Power0.easeNone
 		})
 		TweenMax.to(info,2, {

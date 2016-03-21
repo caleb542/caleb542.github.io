@@ -3,7 +3,7 @@ layout: page
 title: 
 ---
 
-# CALEB G. HAMILTON
+## CALEB G. HAMILTON
 
 I am working on becoming a full-stack developer, although I do spend a most of my time in templates, styles and html.  
 I enjoy new experiences, this is one of my newer projects.  The github experience is also new for me.

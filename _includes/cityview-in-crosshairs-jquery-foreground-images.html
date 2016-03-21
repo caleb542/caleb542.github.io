@@ -1,0 +1,45 @@
+
+<div id="image-wrapper">
+	<img src="{{ site.baseurl }}/images/any-map-image.jpg" title="Cityview">
+	<div class="crosshair">
+	  <img class="/img/.................." alt="" />
+	</div>
+	<script>
+
+	var position = $(".crosshair").offset();
+
+	$(".crosshair").click(function(e){
+		//var position = $(".crosshair").offset();
+		var cx = position.left;
+		var cy = position.top;	
+		var x = e.pageX - this.offsetLeft;
+		var y = e.pageY - this.offsetTop;
+		var coordinateX = x - cx;
+		var coordinateY = y - cy;
+		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+		$(".crosshair .coordinateText").html(coordinateText).css({
+			display:'none',
+			position:'absolute',
+			left:(coordinateX)  + 10 + 'px',
+			top:(coordinateY) - 15 + 'px'
+		});
+	
+		$(".diamond, .horizontal, .vertical").animate({
+	
+			}, 500,'swing', function(){
+			$(".diamond, .vertical, .horizontal").animate({	
+				'opacity':1
+			},100, function(){
+				$('.crosshair .coordinateText').delay(20).slideDown(600);
+			});
+			
+				//FF BEGINS
+		$(".diamond, .horizontal, .vertical").css({
+		
+			});
+		//ENDS FF
+		});
+	});// should work now
+	</script>
+</div>
+

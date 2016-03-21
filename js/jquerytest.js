@@ -14,7 +14,7 @@ function tw(){
 	  TweenMax.to(logo, 3, {
 		display:'block',
 		position:'absolute',
-		z-index:4,
+		'z-index':4,
 		x: '-20px',
 		ease:Bounce.easeInOut
 			

@@ -21,13 +21,13 @@
 		var coordinateY = y - cy;
 		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 		$(".crosshair .coordinateText").html(coordinateText).css({
-			display:'none',
+			display:block,
 			position:'absolute',
 			left:(coordinateX)  + 10 + 'px',
 			top:(coordinateY) - 15 + 'px'
 		});
 		
-	TweenMax.to(crosshairs, .5, {
+	TweenMax.to(crosshairs, .5, ease:Back.easeOut{
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px"
 			

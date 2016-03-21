@@ -15,8 +15,8 @@ function tw(){
 	
 		//	'background-position-x':coordinateX + "px",
 		//	'background-position-y': coordinateY + "px",
-		 backgroundPosition:coordinateX + "px " + coordinateY + "px",
-			ease:Bounce.easeInOut
+		float:'right',
+		ease:Bounce.easeInOut
 			
 		})
 	

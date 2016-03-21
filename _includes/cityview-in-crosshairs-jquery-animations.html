@@ -10,7 +10,7 @@
 	<script>
 
 	var position = $(".crosshair").offset();
-
+	var crosshairs = $(.diamond, .horizontal, .vertical);
 	$(".crosshair").click(function(e){
 		//var position = $(".crosshair").offset();
 		var cx = position.left;
@@ -27,7 +27,7 @@
 			top:(coordinateY) - 15 + 'px'
 		});
 		
-	TweenMax.to(".diamond, .horizontal, .vertical", .5, {
+	TweenMax.to(crosshairs, .5, {
 			'background-position-x':coordinateX + "px",
 			'background-position-y': coordinateY + "px"
 			

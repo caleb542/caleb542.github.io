@@ -18,7 +18,7 @@ function tw(){
 	
 		textAlign: 'center',
 		ease: Power4.easeOut
-		})
+		},2000)
 		
 	
 }

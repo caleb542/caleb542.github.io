@@ -11,10 +11,10 @@
 */
 var logo = $('.site-avatar');
 function tw(){
-	  TweenMax.to(logo, 2, {
-	
-		//	'background-position-x':coordinateX + "px",
-		//	'background-position-y': coordinateY + "px",
+	  TweenMax.to(logo, 3, {
+		display:'block',
+		position:'absolute',
+		z-index:4,
 		float:'right',
 		ease:Bounce.easeInOut
 			

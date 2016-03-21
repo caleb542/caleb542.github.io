@@ -16,7 +16,7 @@ function tw(){
 		position:'relative',
 		'z-index':4,
 		left:'100%',
-		ease: Power4.ease
+		 ease: Power0.easeNone
 		})
 	
 }

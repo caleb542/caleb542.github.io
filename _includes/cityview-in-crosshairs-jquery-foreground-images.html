@@ -8,9 +8,8 @@
 	<script>
 
 	var position = $(".crosshair").offset();
-	alert("!!" + position.left + " && " + position.top + "!!");
 	$(".crosshair").click(function(e){
-		alert("Click!!");
+	console.log("Click!!");
 		//var position = $(".crosshair").offset();
 		var cx = position.left;
 		var cy = position.top;	
@@ -27,7 +26,7 @@
 		});
 	
 		$(".crosshair img").animate({
-			transform: "translate(" + coordinateX + "," +  coordinateY + ")"
+			transform: "translate(" + coordinateX + "px," +  coordinateY + "px)"
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
 				'opacity':1

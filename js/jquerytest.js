@@ -21,7 +21,8 @@ function tw(){
 		float:'left',
 		ease: Power0.easeNone
 		})
-	tl.to(info_h1, 4, {scrambleText:{text:"Caleb G Hamilton,", chars:"0123456789",  ease:Linear.easeNone}})
+	//use the defaults
+TweenLite.to(info_h1, 4, {scrambleText:{text:"Caleb G Hamilton,", chars:"0123456789",  ease:Linear.easeNone}})
 		
 	
 }

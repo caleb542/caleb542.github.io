@@ -11,12 +11,12 @@
 */
 var logo = $('.site-avatar');
 function tw(){
-	  TweenMax.to(logo, 6, {
+	  TweenMax.to(logo, 2.3, {
 		display:'block',
 		position:'relative',
 		'z-index':4,
 		left:'100%',
-		ease: Power1.easeOut
+		ease: Power4
 		})
 	
 }

@@ -9,15 +9,14 @@
 
 	var position = $(".crosshair").offset();
 	$(".crosshair").click(function(e){
-	console.log("Click!!");
-		//var position = $(".crosshair").offset();
+	console.log("Click!! Mouse position is " + coordinateX + "and " + coordinateY );
 		var cx = position.left;
 		var cy = position.top;	
 		var x = e.pageX - this.offsetLeft;
 		var y = e.pageY - this.offsetTop;
 		var coordinateX = x - cx;
 		var coordinateY = y - cy;
-		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+		var coordinateText = x + ".000° N," + y +  ".000° E";
 		$(".crosshair .coordinateText").html(coordinateText).css({
 			display:'none',
 			position:'absolute',

@@ -27,7 +27,8 @@
 		});
 	
 		$(".crosshair img").animate({
-			transform: "translate(" + coordinateX + "px," +  coordinateY + "px)"
+			marginLeft:coordinateX - 477 + "px",
+			marginTop:coordinateY - 280 +"px"
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
 				'opacity':1

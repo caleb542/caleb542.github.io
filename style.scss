@@ -382,7 +382,7 @@ nav {
     z-index: 3;
     transition: 0.5s;
     overflow:hidden;
-    }
+}
 .crosshair {
     position: absolute;
     width: inherit;
@@ -391,7 +391,12 @@ nav {
     left: 0;
     display: block;
     background: rgba(0,0,0,0);
+    overflow:hidden;
     z-index: 3;
+}
+.crosshair img{
+	margin-top: -230px;
+	
 }
 .crosshair .vertical{
     position: absolute;

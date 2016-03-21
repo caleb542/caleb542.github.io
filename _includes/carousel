@@ -1,0 +1,70 @@
+<div class="fullPageCarousel">
+<div class="crosshair">
+    <div class="coordinateText"><!--//--></div>
+    <div class="vertical"><!--//--></div>
+    <div class="horizontal"><!--//--></div>
+    <div class="diamond"><!--//--></div>
+</div>
+	<input id="fullPageCarouselTimer" type="hidden" value="3">
+    <div class="red-O-overlay"><!--//--></div>
+	<ol class="fullPageCarousel-dots">
+		<li class="selected"><a href="#">1</a></li>
+		<li><a href="#">2</a></li>
+	</ol>
+	<div class="fullPageCarousel-carousel">
+		<ol>
+			<li>
+				<img src="/documents/10179/64174/hk_investments.jpg/b4f1448e-22d9-4a37-b84e-c257015564a3?t=1457382495654" width="100%" height="100%" alt="">
+				<h1>We've grown! Now we have an office in Hong Kong!</h1>
+
+				<div>
+					<p>
+	Nam tyriis id mut.&nbsp; Illiadum hom ersantus effereantium nut num neetliam.</p>
+				</div>
+				<div class="button"><a href="385" class="buttonBlue" title="Learn more"><span>Learn more</span></a></div>
+				
+
+<!--<div class="coordinateText location2">+22.2783&deg; N, -114.1747&deg; E</div>-->
+			</li>
+			
+                       
+			<li>
+				<img src="/documents/10179/64174/london_investments.jpg/6bddf8bc-df0d-491f-9e62-c82f675b71a1?t=1457382499879" width="100%" height="100%" alt="">
+				<h1>Bibendum nunc est London</h1>
+
+				<div>
+					<p>
+	Verdi Giesseppioii magnolatum verdus sanctus het net needham</p>
+				</div>
+				<div class="button"><a href="385" class="buttonBlue" title="Learn more"><span>Learn more</span></a></div>
+				
+
+<!--<div class="coordinateText location2">+51.5072&deg; N, -0.1275&deg; W</div>-->
+			</li>
+			
+                       
+		</ol>
+
+	</div>
+	<div class="fullPageCarousel-details">
+		<h1>We've grown! Now we have an office in Hong Kong!</h1>
+                <hr>
+		<div>
+			<p>Nam tyriis id mut.&nbsp; Illiadum hom ersantus effereantium nut num neetliam.</p>
+		</div>
+		<div class="button"><a href="385" class="buttonBlue" title="Learn more"><span>Learn more</span></a></div>
+<!--<div class="coordinateText">+22.2783&deg; N, -114.1747&deg; E</div>-->
+	</div>
+</div>
+			
+				
+			
+			
+		
+	
+
+
+
+
+
+

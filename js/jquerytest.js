@@ -20,13 +20,7 @@ function tw(){
 		float:'left',
 		ease: Power0.easeNone
 		})
-		TweenMax.to(info,2, {
-		display:'block',
-		position:'relative',
-		'z-index':4,
-		float:'right',
-		ease: Power0.easeNone
-		})
+	.to(info h1, 4, {scrambleText:{text:"or use only numbers,", chars:"0123456789",  ease:Linear.easeNone}})
 		
 	
 }

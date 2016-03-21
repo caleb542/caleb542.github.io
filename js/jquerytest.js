@@ -10,7 +10,7 @@
 
 */
 function tw(){
-	  TweenMax.to(crosshairs, .5, {
+	  TweenMax.to(.site-avatar, 2, {
 	
 		//	'background-position-x':coordinateX + "px",
 		//	'background-position-y': coordinateY + "px",
@@ -21,6 +21,6 @@ function tw(){
 	
 }
 $('.site-avatar').click( function() {
-  //jquerytest('ww');
+ alert('click');
   tw();
 });

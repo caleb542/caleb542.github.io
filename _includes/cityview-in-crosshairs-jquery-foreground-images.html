@@ -27,20 +27,14 @@
 		});
 	
 		$(".crosshair img").animate({
-			marginLeft:coordinateX - 477 + "px",
-			marginTop:coordinateY - 280 +"px"
+			"margin-left":coordinateX - 477 + "px",
+			"margin-top":coordinateY - 280 +"px"
 			}, 500,'swing', function(){
 			$(".diamond, .vertical, .horizontal").animate({	
 				'opacity':1
 			},100, function(){
 				$('.crosshair .coordinateText').delay(20).slideDown(600);
 			});
-			
-				//FF BEGINS
-		$(".crosshair img").css({
-		
-			});
-		//ENDS FF
 		});
 	});// should work now
 	</script>

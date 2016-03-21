@@ -27,12 +27,14 @@
 			top:(coordinateY) - 15 + 'px'
 		});
 		
-	TweenMax.to(crosshairs, .5, ease:Back.easeOut{
+	TweenMax.to(crosshairs, .5, {
+	
 			'background-position-x':coordinateX + "px",
-			'background-position-y': coordinateY + "px"
+			'background-position-y': coordinateY + "px",
+			ease:Back.easeOut
 			
-		
-	})
+		})
+
 	/*	$(".diamond, .horizontal, .vertical").animate({
 		
 			'background-position-x':coordinateX + "px",

@@ -14,10 +14,10 @@ var info = $('.site-info');
 var info_h1 = $('.site-info h1');
 var nav = $('nav');
 function tw(){
-	  TweenMax.to(".entry", 2.3, {
+	  TweenMax.to(".entry h2", 5, {
 	
 		textAlign: 'center',
-		ease: Power0.easeNone
+		ease: Power4.easeOut
 		})
 		
 	

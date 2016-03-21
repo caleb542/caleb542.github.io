@@ -11,6 +11,7 @@
 */
 var logo = $('.site-avatar');
 var info = $('.site-info');
+var info_h1 = $('.site-info h1');
 var nav = $('nav');
 function tw(){
 	  TweenMax.to(nav, 2.3, {
@@ -20,7 +21,7 @@ function tw(){
 		float:'left',
 		ease: Power0.easeNone
 		})
-	.to(info h1, 4, {scrambleText:{text:"or use only numbers,", chars:"0123456789",  ease:Linear.easeNone}})
+	tl.to(info_h1, 4, {scrambleText:{text:"Caleb G Hamilton,", chars:"0123456789",  ease:Linear.easeNone}})
 		
 	
 }

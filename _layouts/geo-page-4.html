@@ -11,13 +11,13 @@ layout: default
   </div>
 </article>
 <script type="text/javascript">
-	alert($('.geo-page').width());
+
 	var FullPageCarousel = (function(){
 	
 	// touch-swipe handler
 	function setupFullPageCarouselSwipe(){
 		if (typeof Hammer != 'function') return;
-		$('div.red-O-overlay').each(function(){
+		$('div.red-O-overlay').each(function(){	alert($(this).width());
 			var randomID='_'+randomString();
 			var t=$(this)
 				t.attr('id', randomID);// attach an ID to every carousel on the page

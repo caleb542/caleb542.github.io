@@ -196,3 +196,48 @@ layout: default
 })();
 		// ]]>
 	</script>
+	
+	var position = $(".crosshair").offset();
+	var crosshairs = $(".diamond, .horizontal, .vertical");
+	$(".crosshair").click(function(e){
+		//var position = $(".crosshair").offset();
+		var cx = position.left;
+		var cy = position.top;	
+		var x = e.pageX - this.offsetLeft;
+		var y = e.pageY - this.offsetTop;
+		var coordinateX = x - cx;
+		var coordinateY = y - cy;
+		var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+		$(".crosshair .coordinateText").html(coordinateText).css({
+			
+			position:'absolute',
+			left:(coordinateX)  + 10 + 'px',
+			top:(coordinateY) - 15 + 'px'
+		});
+		
+	TweenMax.to(crosshairs, .5, {
+	
+		//	'background-position-x':coordinateX + "px",
+		//	'background-position-y': coordinateY + "px",
+		 backgroundPosition:coordinateX + "px " + coordinateY + "px",
+			ease:Bounce.easeInOut
+			
+		})
+	/*	$(".diamond, .horizontal, .vertical").animate({
+		
+			'background-position-x':coordinateX + "px",
+			'background-position-y': coordinateY + "px",
+			'background-position': coordinateX + "px " + coordinateY + "px",
+			'-moz-transition': '500' ,
+			'opacity':'0.1'
+			}, 500,'swing', function(){
+			$(".diamond, .vertical, .horizontal").animate({	
+				'opacity':1
+			},100, function(){
+				$('.crosshair .coordinateText').delay(20).slideDown(600);
+			});
+			
+	
+	
+		});*/
+	}); 

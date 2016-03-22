@@ -11,14 +11,9 @@ layout: default
   </div>
 </article>
 <script type="text/javascript">
-		// <![CDATA[
-			//var windoww = $(window).width();
-//var bodyw = $('body').width();
-
-//alert("window w = " + windoww + "\n bodyw = " + bodyw);
-
-			var FullPageCarousel = (function(){
-
+	alert($('.geo-page').width());
+	var FullPageCarousel = (function(){
+	
 	// touch-swipe handler
 	function setupFullPageCarouselSwipe(){
 		if (typeof Hammer != 'function') return;

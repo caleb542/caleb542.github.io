@@ -17,7 +17,7 @@ layout: default
 	// touch-swipe handler
 	function setupFullPageCarouselSwipe(){
 		if (typeof Hammer != 'function') return;
-		$('div.red-O-overlay').each(function(){	alert($(this).width());
+		$('div.red-O-overlay').each(function(){	
 			var randomID='_'+randomString();
 			var t=$(this)
 				t.attr('id', randomID);// attach an ID to every carousel on the page
@@ -71,8 +71,8 @@ layout: default
 	
 	
 	function setUp(){
-		var desktopImageHeight = window._imageHeight;
-		var desktopImageWidth = window._imageWidth;
+		var desktopImageHeight =  256; 
+		var desktopImageWidth = 612;
 		var coeff = desktopImageHeight / desktopImageWidth;
 		var winWidth = $(window).width();
 	

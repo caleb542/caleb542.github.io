@@ -11,7 +11,7 @@ layout: default
   </div>
 </article>
 <script>
-	function animateCrosshairs( clickPosition ){
+	function animateCrosshairs( pos ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
 	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
@@ -19,12 +19,12 @@ layout: default
 			var cy = position.top;	
 		//	var x = e.pageX - this.offsetLeft;
 		//	var y = e.pageY - this.offsetTop;
-			if( slidePosition == 0){
-				alert(slidePosition + "=ZERO")
+			if( pos == 0){
+				alert(pos + "=ZERO")
 				var x = 330;
 				var y = 63;
-			} else if( slidePosition == 1 ){ 
-				alert(slidePosition + "=1")
+			} else if( pos == 1 ){ 
+				alert(pos + "=1")
 				var x = 407;
 				var y = 37;
 			}else{

@@ -197,10 +197,10 @@ layout: default
 		// ]]>
 	</script>
 <script>
-		var position = $(".crosshair").offset();
+		//var position = $(".crosshair").offset();
 	var crosshairs = $(".diamond, .horizontal, .vertical");
 	$(".crosshair").click(function(e){
-		//var position = $(".crosshair").offset();
+		var position = $(".crosshair").offset();
 		var cx = position.left;
 		var cy = position.top;	
 		var x = e.pageX - this.offsetLeft;

@@ -14,7 +14,7 @@ layout: default
 <script>
 	function animateCrosshairs( pos ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
-		var coordsText = $(".crosshair .coordinateText");
+	//	var coordsText = $(".crosshair .coordinateText");
 	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
 			var cx = position.left;
@@ -34,13 +34,13 @@ layout: default
 			var coordinateX = x ;//- cx;
 			var coordinateY = y ;//- cy;
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-			$(".crosshair .coordinateText").html(coordinateText);
+			$(".coordinateText").html(coordinateText);
 			
 			//instantiate a TimelineLite    
 		var tl = new TimelineLite();
 		tl.to(coordsText, .5,{position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone}
 		);
-		tl.to(crosshairs, .5, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone},'-=1');
+	//	tl.to(crosshairs, .5, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone},'-=1');
 	
 	}
 </script>

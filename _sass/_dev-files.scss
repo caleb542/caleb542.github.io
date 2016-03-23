@@ -1170,15 +1170,15 @@ div.sectionNav.small {
 div.sectionNav.small div.body div.uls {
   width: 130px;
 }
-/* MOBILE -------------------------------------------------------------------------------- 
+/* MOBILE -------------------------------------------------------------------------------- */
 header {
   width: 100%;
   height: 205px;
-  position: absolute;
+  position: relative;
   left: 0;
   top: 0;
   z-index: 5;
-} */
+} 
 header nav.topNav {
   color: #3e5e80;
   position: absolute;

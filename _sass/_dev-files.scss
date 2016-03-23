@@ -79,16 +79,11 @@ div.fullPageCarousel .red-O-overlay {
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 70%;
-  z-index: 3;
+  z-index: 4;
 }
 .wurfl-mobile div.fullPageCarousel .red-O-overlay {
   background-image: url(/images/red-O-overlay.png?v=2015-10-26);
-  /* background-position: right 0; */
-
-  /* right: -190px; */
-
-  /* top: -150px; */
-
+  
   background-position: 200px -170px;
   background-size: 100%;
   left: 0;
@@ -105,7 +100,7 @@ div.fullPageCarousel ol.fullPageCarousel-dots {
   position: absolute;
   top: 11px !important;
   overflow: hidden;
-  z-index: 3;
+  z-index: 4;
 }
 div.w960 div.fullPageCarousel ol.fullPageCarousel-dots {
   right: 35px !important;

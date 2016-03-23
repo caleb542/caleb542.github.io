@@ -11,7 +11,7 @@ layout: default
   </div>
 </article>
 <script>
-	function animateCrosshairs( slidePosition ){
+	function animateCrosshairs( 'slidePosition' ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
 	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
@@ -217,7 +217,7 @@ layout: default
 					if (clickPosition == 0) content.css({'margin-left': 0});
 					window.__fullPageCarouselAnimation = false;
 					
-					animateCrosshairs(slidePosition);
+					animateCrosshairs('slidePosition');
 				});
 				$(this).parent().addClass('selected');
 

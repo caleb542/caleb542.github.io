@@ -213,7 +213,7 @@ layout: default
 				$('div.fullPageContent .coordinatesText span').replaceWith($(contentItems[clickPosition]).find('.coordinatesText span').clone(true));
 				
 				var slidePosition = (clickPosition == 0) ? ((currentSelected<=1) ? 0 : (-(dots.length)*w)) : (-clickPosition * w );
-		animateCrosshairs(clickPosition);
+	
 				window.__fullPageCarouselAnimation = true;
 				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
 					if (clickPosition == 0) content.css({'margin-left': 0});
@@ -222,7 +222,7 @@ layout: default
 					
 				});
 				$(this).parent().addClass('selected');
-
+	animateCrosshairs(clickPosition);
 				return false;
 			});
 		}).hover(function(e){

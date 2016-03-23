@@ -37,7 +37,7 @@ layout: default
 			$(".coordinateText").html(coordinateText);
 			
 			//instantiate a TimelineLite    
-		var tM = new TweenMax(coordinateX,corrdinateY,coordsText,crosshairs);
+		var tM = new TweenMax(coordinateX,coordinateY,coordsText,crosshairs);
 	tM.to(coordsText, .5,{
 		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone}
 );

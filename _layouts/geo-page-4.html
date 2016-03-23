@@ -33,12 +33,12 @@ layout: default
 			var coordinateX = x ;//- cx;
 			var coordinateY = y ;//- cy;
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
-			$(".crosshair .coordinateText").html(coordinateText).css({
+			$(".crosshair .coordinateText").html(coordinateText).animate({
 				
 				position:'absolute',
 				left:(coordinateX)  + 10 + 'px',
 				top:(coordinateY) - 15 + 'px'
-		});
+		},500);
 		
 	TweenMax.to(crosshairs, .3, {
 		 backgroundPosition:coordinateX + "px " + coordinateY + "px",
@@ -192,11 +192,8 @@ layout: default
 				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
 					if (clickPosition == 0) content.css({'margin-left': 0});
 					window.__fullPageCarouselAnimation = false;
-					
-					
 				});
 				$(this).parent().addClass('selected');
-				//animateCrosshairs(clickPosition);
 				return false;
 			});
 		}).hover(function(e){

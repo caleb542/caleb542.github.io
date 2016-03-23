@@ -14,21 +14,26 @@ layout: default
 <script>
 	function animateCrosshairs( pos ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
+	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
 			var cx = position.left;
 			var cy = position.top;	
-		//	var x = e.pageX - this.offsetLeft; // used to follow mouse position
-		//	var y = e.pageY - this.offsetTop; // used to follow mouse position
-			if( pos == 1){ // which frame of the carousel are we on?
+		//	var x = e.pageX - this.offsetLeft;
+		//	var y = e.pageY - this.offsetTop;
+			if( pos == 1){
+				console.log("pos = 1");
 				var x = 330;
 				var y = 63;
 			} else if( pos == 0 ){ 
+				console.log("pos = ZIP");
 				var x = 407;
 				var y = 37;
+			}else{
+				alert("NEITHER");
 			}
 			
-			var coordinateX = x ; //- cx;
-			var coordinateY = y ; //- cy;
+			var coordinateX = x ;//- cx;
+			var coordinateY = y ;//- cy;
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".crosshair .coordinateText").html(coordinateText).css({
 				
@@ -43,31 +48,8 @@ layout: default
 		//	'background-position-y': coordinateY + "px",
 		 backgroundPosition:coordinateX + "px " + coordinateY + "px",
 			ease: Power0.easeNone
-			
 		})
-	/*	$(".diamond, .horizontal, .vertical").animate({
-		
-			'background-position-x':coordinateX + "px",
-			'background-position-y': coordinateY + "px",
-			'background-position': coordinateX + "px " + coordinateY + "px",
-			'-moz-transition': '500' ,
-			'opacity':'0.1'
-			}, 500,'swing', function(){
-			$(".diamond, .vertical, .horizontal").animate({	
-				'opacity':1
-			},100, function(){
-				$('.crosshair .coordinateText').delay(20).slideDown(600);
-			});
-			
-	
-	
-		});*/
-//	}); 
-		
 	}
-
-
-	
 </script>
 <script type="text/javascript">
 
@@ -214,11 +196,11 @@ layout: default
 				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
 					if (clickPosition == 0) content.css({'margin-left': 0});
 					window.__fullPageCarouselAnimation = false;
-					
+						animateCrosshairs(clickPosition);//animate the crosshairs
 					
 				});
 				$(this).parent().addClass('selected');
-	animateCrosshairs(clickPosition);
+				//animateCrosshairs(clickPosition);
 				return false;
 			});
 		}).hover(function(e){

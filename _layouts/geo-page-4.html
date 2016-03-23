@@ -21,15 +21,13 @@ layout: default
 		//	var x = e.pageX - this.offsetLeft;
 		//	var y = e.pageY - this.offsetTop;
 			if( pos == 1){
-				console.log("pos = 1");
+			
 				var x = 330;
 				var y = 63;
 			} else if( pos == 0 ){ 
-				console.log("pos = ZIP");
+			
 				var x = 407;
 				var y = 37;
-			}else{
-				alert("NEITHER");
 			}
 			
 			var coordinateX = x ;//- cx;
@@ -42,10 +40,7 @@ layout: default
 				top:(coordinateY) - 15 + 'px'
 		});
 		
-	TweenMax.to(crosshairs, .5, {
-	
-		//	'background-position-x':coordinateX + "px",
-		//	'background-position-y': coordinateY + "px",
+	TweenMax.to(crosshairs, .05, {
 		 backgroundPosition:coordinateX + "px " + coordinateY + "px",
 			ease: Power0.easeNone
 		})

@@ -188,10 +188,11 @@ layout: default
 				var slidePosition = (clickPosition == 0) ? ((currentSelected<=1) ? 0 : (-(dots.length)*w)) : (-clickPosition * w );
 	
 				window.__fullPageCarouselAnimation = true;
+				animateCrosshairs(clickPosition);//animate the crosshairs
 				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
 					if (clickPosition == 0) content.css({'margin-left': 0});
 					window.__fullPageCarouselAnimation = false;
-						animateCrosshairs(clickPosition);//animate the crosshairs
+					
 					
 				});
 				$(this).parent().addClass('selected');

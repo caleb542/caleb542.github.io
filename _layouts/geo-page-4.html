@@ -44,12 +44,12 @@ layout: default
 				left:(coordinateX)  + 10 + 'px',
 				top:(coordinateY) - 15 + 'px',
 				ease: Power4.easeIn
-				},0);	
+				},);	
 			
 			tl.from(crosshairs, .3, {
 				 backgroundPosition:coordinateX + "px " + coordinateY + "px",
 				ease: Power4.easeIn
-				},0);
+				},-=0.3);
 	}
 </script>
 <script type="text/javascript">

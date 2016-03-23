@@ -39,12 +39,12 @@ layout: default
 			//instantiate a TimelineLite    
 			var tl = new TimelineLite();
 			
-				tl.to(coordsText, .3,{
+			tl.to(coordsText, .3,{
 				position:'absolute',
 				left:(coordinateX)  + 10 + 'px',
 				top:(coordinateY) - 15 + 'px',
 				ease: Power4.easeIn
-				},);	
+				});	
 			
 			tl.to(crosshairs, .3, {
 				 backgroundPosition:coordinateX + "px " + coordinateY + "px",

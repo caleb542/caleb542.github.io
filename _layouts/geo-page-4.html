@@ -40,18 +40,12 @@ layout: default
 			var tl = new TimelineLite();
 			
 		tl.to(coordsText, .5,{
-				position:'absolute',
-				left:(coordinateX)  + 10 + 'px',
-				top:(coordinateY) - 15 + 'px',
-				ease: Power0.easeNone
-				},0);	
+		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone}));	
 			
-		tl.add(crosshair2){
-			tl.to(crosshairs, .5, {
-				 backgroundPosition:coordinateX + "px " + coordinateY + "px",
-				ease: Power0.easeNone
-				},0);
-		}
+	
+		tl.to(crosshairs, .5, {
+			backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone},'-=1');
+	
 		
 	}
 </script>

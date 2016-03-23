@@ -44,8 +44,6 @@ div.fullPageCarousel div.fullPageCarousel-details {
     left: 40px;
     width: 220px;
     min-height: 237px;
-}
-div.fullPageCarousel div.fullPageCarousel-details {
     position: absolute;
     top: 43px;
     right: 40px;
@@ -65,13 +63,19 @@ div.fullPageCarousel div.fullPageCarousel-details {
 }
 .fullPageCarousel-details div{
 	width:100%;
-	margin-top:5px;
+	margin-top:10px;
 }
  div.fullPageCarousel div.fullPageCarousel-details a.buttonBlue, div.w960 div.fullPageCarousel div.fullPageCarousel-details a.buttonYellow {
     display:block;
     float: left;
     margin: 9px 16px 0 0;
     margin-left:16px;
+}
+div.fullPageCarousel div.fullPageCarousel-details h1{
+margin:0 0 0 10px;
+}
+div.fullPageCarousel div.fullPageCarousel-details p{
+margin:0 0 0 10px;
 }
 div.fullPageCarousel div.fullPageCarousel-details .content{
 float:left;
@@ -81,9 +85,7 @@ display:block;
 div.fullPageCarousel div.fullPageCarousel-details *{
 float:left;
 }
-div.fullPageCarousel div.fullPageCarousel-details p{
-margin:0;
-}
+
 div.fullPageCarousel div.fullPageCarousel-details div.button{
 margin-top:0;
 }

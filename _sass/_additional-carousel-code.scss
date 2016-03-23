@@ -49,13 +49,10 @@ div.fullPageCarousel div.fullPageCarousel-details {
     position: absolute;
     top: 43px;
     right: 40px;
-    width: 270px;
-    min-height: 237px;
-   
     z-index: 3;
     background: url("/images/nav-sprite.png") no-repeat -491px bottom;
 }
-.fullPageCarousel-details hr,
+
 .fullPageCarousel-details hr{
     color: #d50032;
     border: 0;
@@ -66,8 +63,11 @@ div.fullPageCarousel div.fullPageCarousel-details {
     margin-left: 15px;
     clear: both;
 }
+.fullPageCarousel-details h1{
+	margin-top:8px;
+}
  div.fullPageCarousel div.fullPageCarousel-details a.buttonBlue, div.w960 div.fullPageCarousel div.fullPageCarousel-details a.buttonYellow {
-	display:block;
+    display:block;
     float: left;
     margin: 9px 16px 0 0;
     margin-left:16px;
@@ -85,7 +85,7 @@ margin-top:0;
 }
 div.fullPageCarousel ol.fullPageCarousel-dots {
     right: 14px !important;
-	top:226px !important;
+	top:216px !important;
 }
 div.fullPageCarousel div.fullPageCarousel-details  .coordinateText {
     display: block;

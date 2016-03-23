@@ -272,7 +272,7 @@ pre {
 }
 /* ---------- Loading animation ---------- */
 .loading-animation {
-  background: url('../images/progress_bar/loading_animation.gif?v=2015-10-26') no-repeat top center;
+  background: url('/images/progress_bar/loading_animation.gif?v=2015-10-26') no-repeat top center;
   margin-top: 10px;
   padding-top: 40px;
   text-align: left;
@@ -356,7 +356,7 @@ form fieldset div.textField {
 }
 form fieldset div.textField input {
   border-width: 0;
-  background: url('../images/background_transparent.gif?v=2015-10-26') repeat;
+  background: url('/images/background_transparent.gif?v=2015-10-26') repeat;
   position: absolute;
 }
 form.quickSearch fieldset {
@@ -418,7 +418,7 @@ div.console {
   margin: 0 auto;
 }
 .bgDots {
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 .contText {
   font-size: 0.8em;
@@ -449,7 +449,7 @@ div.console {
   text-transform: uppercase;
   text-decoration: none;
   color: #004786;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
 }
 .brm:hover {
   text-decoration: underline;
@@ -585,7 +585,7 @@ div.w960 div.header div.bgLeft {
   top: 93px;
   left: 0;
   z-index: -1;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -490px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -490px;
 }
 div.w960.otpp-cws-layout-homepage div.header {
   width: 816px;
@@ -599,7 +599,7 @@ div.w960.otpp-cws-layout-homepage div.header div.bgLeft {
   bottom: -20px;
   left: -34px;
   z-index: -1;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -390px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -390px;
   overflow: hidden;
 }
 div.w760 div.header {
@@ -614,7 +614,7 @@ div.w760 div.header div.bgLeft {
   top: 123px;
   left: -34px;
   z-index: -1;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -450px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -450px;
 }
 div.w760.otpp-cws-layout-homepage div.header {
   width: 658px;
@@ -628,7 +628,7 @@ div.w760.otpp-cws-layout-homepage div.header div.bgLeft {
   bottom: -20px;
   left: -34px;
   z-index: -1;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
 }
 div.w520 div.header {
   width: 554px;
@@ -642,7 +642,7 @@ div.w520 div.header div.bgLeft {
   bottom: -20px;
   left: -34px;
   z-index: -1;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -450px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -450px;
 }
 div.w520.otpp-cws-layout-homepage div.header {
   width: 554px;
@@ -656,7 +656,7 @@ div.w520.otpp-cws-layout-homepage div.header div.bgLeft {
   top: 123px;
   left: -34px;
   z-index: -1;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
 }
 div.header a.btnSignIn {
   border-bottom: 2px solid #ffffff;
@@ -668,13 +668,13 @@ div.header a.btnSignIn {
 div.w960 div.header a.btnSignIn,
 div.w760 div.header a.btnSignIn {
   width: 165px;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -91px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -91px transparent;
 }
 div.w960 div.header a.btnSignIn:hover,
 div.w760 div.header a.btnSignIn:hover,
 div.w960 div.header a.btnSignIn:focus,
 div.w760 div.header a.btnSignIn:focus {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -253px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -253px transparent;
 }
 div.w960 div.header a.btnSignIn {
   left: 651px;
@@ -686,22 +686,22 @@ div.w760 div.header a.btnSignIn {
 }
 div.w520 div.header a.btnSignIn {
   width: 123px;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -37px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -37px transparent;
   left: 431px;
   top: 53px;
 }
 div.w520 div.header a.btnSignIn:hover,
 div.w520 div.header a.btnSignIn:focus {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -199px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -199px transparent;
 }
 html.lang-fr div.w520 div.header a.btnSignIn {
   width: 135px;
   left: 419px;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -64px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -64px transparent;
 }
 html.lang-fr div.w520 div.header a.btnSignIn:hover,
 html.lang-fr div.w520 div.header a.btnSignIn:focus {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -226px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -226px transparent;
 }
 div.header a.btnSignIn strong {
   display: block;
@@ -724,15 +724,15 @@ div.w960 div.header a.btnSignIn-lock,
 div.w960 div.header a.btnSignIn-userRecognized,
 div.w760 div.header a.btnSignIn-lock,
 div.w760 div.header a.btnSignIn-userRecognized {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -172px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -172px transparent;
 }
 div.w520 div.header a.btnSignIn-lock,
 div.w520 div.header a.btnSignIn-userRecognized {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -118px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -118px transparent;
 }
 html.lang-fr div.w520 div.header a.btnSignIn-lock,
 html.lang-fr div.w520 div.header a.btnSignIn-userRecognized {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -145px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -145px transparent;
 }
 div.header html.wurfl-mobile a#sign-in strong {
   font-weight: normal;
@@ -742,7 +742,7 @@ div.header a.btnSignIn-lock strong {
 
   padding-left: 12px;
   width: 119px;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -156px 1px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -156px 1px transparent;
 }
 div.w960 div.header a.btnSignIn-lock:hover,
 div.w960 div.header a.btnSignIn-userRecognized:hover,
@@ -754,21 +754,21 @@ div.w760 div.header a.btnSignIn-userRecognized:hover,
 div.w760 div.header a.btnSignIn-lock:focus,
 div.w760 div.header a.btnSignIn-userRecognized:focus,
 div.w760 div.header a.btnSignIn-on {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -334px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -334px transparent;
 }
 div.w520 div.header a.btnSignIn-lock:hover,
 div.w520 div.header a.btnSignIn-userRecognized:hover,
 div.w520 div.header a.btnSignIn-lock:focus,
 div.w520 div.header a.btnSignIn-userRecognized:focus,
 div.w520 div.header a.btnSignIn-on {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -280px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -280px transparent;
 }
 html.lang-fr div.w520 div.header a.btnSignIn-lock:hover,
 html.lang-fr div.w520 div.header a.btnSignIn-userRecognized:hover,
 html.lang-fr div.w520 div.header a.btnSignIn-lock:focus,
 html.lang-fr div.w520 div.header a.btnSignIn-userRecognized:focus,
 html.lang-fr div.w520 div.header a.btnSignIn-on {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -307px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -307px transparent;
 }
 div.header form.quickSearch,
 div.header form.quickSearch fieldset {
@@ -982,7 +982,7 @@ div.w520 ul.subNav li#fontSize a {
 }
 div.w960 ul.subNav li#fontSize a.smaller {
   margin-right: 1px;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -18px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll 0 -18px transparent;
 }
 div.w960 ul.subNav li#fontSize a.smaller.on,
 div.w960 ul.subNav li#fontSize a.smaller:hover,
@@ -992,7 +992,7 @@ div.w960 ul.subNav li#fontSize a.smaller:focus {
 div.w760 ul.subNav li#fontSize a.smaller,
 div.w520 ul.subNav li#fontSize a.smaller {
   margin-right: 0;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -35px -10px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -35px -10px transparent;
 }
 div.w760 ul.subNav li#fontSize a.smaller.on,
 div.w520 ul.subNav li#fontSize a.smaller.on,
@@ -1007,7 +1007,7 @@ ul.subNav li#fontSize a.larger {
   height: 18px;
 }
 div.w960 ul.subNav li#fontSize a.larger {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -17px -18px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -17px -18px transparent;
 }
 div.w960 ul.subNav li#fontSize a.larger.on,
 div.w960 ul.subNav li#fontSize a.larger:hover,
@@ -1016,7 +1016,7 @@ div.w960 ul.subNav li#fontSize a.larger:focus {
 }
 div.w760 ul.subNav li#fontSize a.larger,
 div.w520 ul.subNav li#fontSize a.larger {
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -44px -10px transparent;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat scroll -44px -10px transparent;
 }
 div.w760 ul.subNav li#fontSize a.larger.on,
 div.w520 ul.subNav li#fontSize a.larger.on,
@@ -1075,7 +1075,7 @@ div.sectionNav div.body div.cont a {
   text-transform: uppercase;
   text-decoration: none;
   color: #004786;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
 }
 div.sectionNav div.body div.cont a:hover {
   text-decoration: underline;
@@ -1113,13 +1113,13 @@ div.sectionNav.snLeft div.body div {
   float: left;
 }
 div.sectionNav.snLeft div.body {
-  background: url('../images/background_home_sectionNav_body_left.png?v=2015-10-26') repeat-y left;
+  background: url('/images/background_home_sectionNav_body_left.png?v=2015-10-26') repeat-y left;
 }
 div.sectionNav.snLeft div.body div.cont {
   margin: 20px 36px 14px 19px;
 }
 div.sectionNav.snLeft.small div.body {
-  background-image: url('../images/background_home_sectionNav_body_left_small.png?v=2015-10-26');
+  background-image: url('/images/background_home_sectionNav_body_left_small.png?v=2015-10-26');
 }
 div.sectionNav.snLeft div.body ul li {
   margin: 0 30px 17px 0;
@@ -1128,7 +1128,7 @@ div.sectionNav.snRight div.body div {
   float: right;
 }
 div.sectionNav.snRight div.body {
-  background: url('../images/background_home_sectionNav_body_right.png?v=2015-10-26') repeat-y left;
+  background: url('/images/background_home_sectionNav_body_right.png?v=2015-10-26') repeat-y left;
 }
 div.sectionNav.snRight div.body div.cont {
   margin: 20px 19px 14px 36px;
@@ -1140,7 +1140,7 @@ html.lt-ie8 div.sectionNav.snRight div.body div.uls {
   margin-left: 0;
 }
 div.sectionNav.snRight.small div.body {
-  background-image: url('../images/background_home_sectionNav_body_right.png?v=2015-10-26');
+  background-image: url('/images/background_home_sectionNav_body_right.png?v=2015-10-26');
 }
 div.sectionNav.snRight div.body ul li {
   margin: 0 0 17px 30px;
@@ -1153,16 +1153,16 @@ html.lt-ie8 div.sectionNav div.bottom {
   margin-top: -3px;
 }
 div.sectionNav.snLeft div.bottom {
-  background: url('../images/background_home_sectionNav_bottom_left.png?v=2015-10-26') repeat-y left;
+  background: url('/images/background_home_sectionNav_bottom_left.png?v=2015-10-26') repeat-y left;
 }
 div.sectionNav.snLeft.small div.bottom {
-  background-image: url('../images/background_home_sectionNav_bottom_left_small.png?v=2015-10-26');
+  background-image: url('/images/background_home_sectionNav_bottom_left_small.png?v=2015-10-26');
 }
 div.sectionNav.snRight div.bottom {
-  background: url('../images/background_home_sectionNav_bottom_right.png?v=2015-10-26') repeat-y left;
+  background: url('/images/background_home_sectionNav_bottom_right.png?v=2015-10-26') repeat-y left;
 }
 div.sectionNav.snRight.small div.bottom {
-  background-image: url('../images/background_home_sectionNav_bottom_right_small.png?v=2015-10-26');
+  background-image: url('/images/background_home_sectionNav_bottom_right_small.png?v=2015-10-26');
 }
 div.sectionNav.small {
   width: 346px;
@@ -1246,11 +1246,11 @@ header div.otpp a {
   position: absolute;
 }
 header div.otpp a.btnHome {
-  background-image: url('../images/sm_header_button_home.png?v=2015-10-26');
+  background-image: url('/images/sm_header_button_home.png?v=2015-10-26');
   left: 15px;
 }
 header div.otpp a.btnNav {
-  background-image: url('../images/sm_header_button_nav.png?v=2015-10-26');
+  background-image: url('/images/sm_header_button_nav.png?v=2015-10-26');
   right: 15px;
 }
 header nav.subNav {
@@ -1309,13 +1309,13 @@ form.quickSearch fieldset span.lfr-search-button > span {
 }
 .search-cont {
   position: relative;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -300px transparent;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -300px transparent;
   width: 165px;
   height: 26px;
 }
 html.wurfl-mobile .search-cont {
   width: 135px;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -328px transparent;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -328px transparent;
 }
 .search-cont input {
   border: 0 none;
@@ -1337,7 +1337,7 @@ html.wurfl-mobile .search-cont input {
   cursor: pointer;
 }
 html.wurfl-mobile .search-cont #otpp-cws-search-button {
-  background: url('../images/button_search.png?v=2015-10-26') no-repeat -3px 2px transparent;
+  background: url('/images/button_search.png?v=2015-10-26') no-repeat -3px 2px transparent;
   height: 30px;
   position: relative;
   top: -2px;
@@ -1346,7 +1346,7 @@ html.wurfl-mobile .search-cont #otpp-cws-search-button {
 }
 html.wurfl-mobile .search-cont #otpp-cws-search-button:hover,
 html.wurfl-mobile .search-cont #otpp-cws-search-button:focus {
-  background: url('../images/button_search_on.png?v=2015-10-26') no-repeat -3px 2px transparent;
+  background: url('/images/button_search_on.png?v=2015-10-26') no-repeat -3px 2px transparent;
 }
 .search-cont button span {
   display: none;
@@ -1425,7 +1425,7 @@ div.contMemb a span {
   top: 4px;
 }
 div.contMemb a span + span {
-  background: url('../images/sm_button_contact_us.png?v=2015-10-26') 100%;
+  background: url('/images/sm_button_contact_us.png?v=2015-10-26') 100%;
 }
 div.contMemb a + a {
   float: right;
@@ -1439,7 +1439,7 @@ div.contMemb a + a span {
   background: #ffffff;
 }
 div.contMemb a + a span + span {
-  background: url('../images/sm_button_member.png?v=2015-10-26') 100%;
+  background: url('/images/sm_button_member.png?v=2015-10-26') 100%;
 }
 div.contMemb a + a strong {
   font-weight: normal;
@@ -1456,7 +1456,7 @@ div.contMemb a + a.btnSignIn-on span {
   background: #ffffff;
 }
 div.contMemb a + a.btnSignIn-on span + span {
-  background: url('../images/sm_button_member.png?v=2015-10-26') 100%;
+  background: url('/images/sm_button_member.png?v=2015-10-26') 100%;
 }
 div.contMemb a + a.btnSignIn-lock,
 div.contMemb a + a.btnSignIn-userRecognized {
@@ -1493,11 +1493,11 @@ div.contMemb a + a.btnSignIn-userRecognized:hover {
 }
 div.contMemb a + a.btnSignIn-lock strong {
   padding-left: 16px;
-  background: url('../images/button_textsize_sprite.png?v=2015-10-26') no-repeat -153px 1px;
+  background: url('/images/button_textsize_sprite.png?v=2015-10-26') no-repeat -153px 1px;
 }
 div.contMemb a + a.btnSignIn-lock span + span,
 div.contMemb a + a.btnSignIn-userRecognized span + span {
-  background: url('../images/sm_button_member-found.png?v=2015-10-26') 100% !important;
+  background: url('/images/sm_button_member-found.png?v=2015-10-26') 100% !important;
 }
 nav#headNav {
   color: #d50032;
@@ -1555,37 +1555,37 @@ nav.smartphoneNavigation div.ulWrap ul li a span {
   -webkit-transition: none;
 }
 nav.smartphoneNavigation div.ulWrap ul li a {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat right -192px;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat right -192px;
   /* blue ] */
 
 }
 nav.smartphoneNavigation div.ulWrap ul li a.back {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat right top;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat right top;
   /* purple ] */
 
 }
 nav.smartphoneNavigation div.ulWrap ul li a.open {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat right -144px;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat right -144px;
   /* blue > */
 
 }
 nav.smartphoneNavigation div.ulWrap ul li a.selected {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat right -288px;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat right -288px;
   /* orange ] */
 
 }
 nav.smartphoneNavigation div.ulWrap ul li a span {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat left -96px;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat left -96px;
   /* [ blue */
 
 }
 nav.smartphoneNavigation div.ulWrap ul li a.back span {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat -2px -48px;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat -2px -48px;
   /* < purple */
 
 }
 nav.smartphoneNavigation div.ulWrap ul li a.selected span {
-  background: url('../images/nav-mobile.png?v=2015-10-26') no-repeat left -240px;
+  background: url('/images/nav-mobile.png?v=2015-10-26') no-repeat left -240px;
   /* [ red */
 
 }
@@ -1634,7 +1634,7 @@ div.mTop {
   position: relative;
 }
 div.title {
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.w960 div.title {
   padding-bottom: 0.8em;
@@ -1788,11 +1788,11 @@ body.html-editor p.less a:hover {
 }
 div.otpp-cws-content p.more a,
 body.html-editor p.more a {
-  background-image: url('../images/background_button_leftnav_arrow_open.png?v=2015-10-26');
+  background-image: url('/images/background_button_leftnav_arrow_open.png?v=2015-10-26');
 }
 div.otpp-cws-content p.less a,
 body.html-editor p.less a {
-  background-image: url('../images/background_button_leftnav_arrow_less.png?v=2015-10-26');
+  background-image: url('/images/background_button_leftnav_arrow_less.png?v=2015-10-26');
 }
 div.otpp-cws-content a,
 body.html-editor a {
@@ -1832,14 +1832,14 @@ body.html-editor div.portlet-boundary.collapse header.portlet-topper h3 {
   margin-bottom: 1em;
   clear: both;
   cursor: pointer;
-  background: url('../images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 13px;
+  background: url('/images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 13px;
 }
 div.otpp-cws-content div.portlet-boundary.collapse header.portlet-topper h3 span,
 body.html-editor div.portlet-boundary.collapse header.portlet-topper h3 span {
   display: block;
   margin: 0 0 1em;
   padding-bottom: 0.4em;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.otpp-cws-content div.portlet-boundary.collapse-open header.portlet-topper h3,
 body.html-editor div.portlet-boundary.collapse-open header.portlet-topper h3 {
@@ -1848,14 +1848,14 @@ body.html-editor div.portlet-boundary.collapse-open header.portlet-topper h3 {
   clear: both;
   cursor: pointer;
   padding-bottom: 0.5em;
-  background: url('../images/background_button_leftnav_arrow_open.png?v=2015-10-26') no-repeat left 13px;
+  background: url('/images/background_button_leftnav_arrow_open.png?v=2015-10-26') no-repeat left 13px;
 }
 div.otpp-cws-content div.portlet-boundary.collapse-open header.portlet-topper h3 span,
 body.html-editor div.portlet-boundary.collapse-open header.portlet-topper h3 span {
   display: block;
   margin: 0 0 1em;
   padding-bottom: 0.4em;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.otpp-cws-content h3,
 body.html-editor h3,
@@ -1869,7 +1869,7 @@ body.html-editor div.portlet-boundary header.portlet-topper h3 {
   margin: 0 0 1em;
   padding-top: 0.8em;
   padding-bottom: 0.4em;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
   clear: both;
 }
 html.wurfl-mobile div.otpp-cws-content h3,
@@ -1887,7 +1887,7 @@ body.html-editor div.portlet-boundary header.portlet-topper h3.collapse {
   padding-top: 0.7em;
   clear: both;
   cursor: pointer;
-  background: url('../images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 13px;
+  background: url('/images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 13px;
   color: #3e5e80;
 }
 div.otpp-cws-content h3.collapse:hover,
@@ -1904,7 +1904,7 @@ body.html-editor div.portlet-boundary header.portlet-topper h3.collapse span {
   margin: 0 0 1em;
   padding-bottom: 0.4em;
   zoom: 1;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.otpp-cws-content h3.collapse-open,
 body.html-editor h3.collapse-open,
@@ -1916,7 +1916,7 @@ body.html-editor div.portlet-boundary header.portlet-topper h3.collapse-open {
   padding-top: 0.7em;
   clear: both;
   cursor: pointer;
-  background: url('../images/background_button_leftnav_arrow_open.png?v=2015-10-26') no-repeat left 13px;
+  background: url('/images/background_button_leftnav_arrow_open.png?v=2015-10-26') no-repeat left 13px;
   color: #d50032;
 }
 div.otpp-cws-content h3.collapse-open:hover,
@@ -1933,7 +1933,7 @@ body.html-editor div.portlet-boundary header.portlet-topper h3.collapse-open spa
   margin: 0 0 1em;
   padding-bottom: 0.4em;
   zoom: 1;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.otpp-cws-content h3 a,
 body.html-editor h3 a,
@@ -1962,7 +1962,7 @@ body.html-editor h4.collapse {
   margin-bottom: 1em;
   color: #3e5e80;
   cursor: pointer;
-  background: url('../images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 3px;
+  background: url('/images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 3px;
   clear: both;
 }
 div.otpp-cws-content h4.collapse:hover,
@@ -1975,7 +1975,7 @@ body.html-editor h4.collapse-open {
   margin-bottom: 1em;
   padding-bottom: 0.3em;
   cursor: pointer;
-  background: url('../images/background_button_leftnav_arrow_open.png?v=2015-10-26') no-repeat left 3px;
+  background: url('/images/background_button_leftnav_arrow_open.png?v=2015-10-26') no-repeat left 3px;
   clear: both;
   color: #d50032;
 }
@@ -2062,7 +2062,7 @@ body.html-editor a.button {
   white-space: nowrap;
   height: 22px;
   line-height: 22px;
-  background: url('../images/sm_button.png?v=2015-10-26') no-repeat right -96px;
+  background: url('/images/sm_button.png?v=2015-10-26') no-repeat right -96px;
   text-decoration: none !important;
 }
 div.otpp-cws-content a.button span,
@@ -2072,7 +2072,7 @@ body.html-editor a.button span {
   height: 22px;
   line-height: 22px;
   cursor: pointer;
-  background: url('../images/sm_button.png?v=2015-10-26') no-repeat left top;
+  background: url('/images/sm_button.png?v=2015-10-26') no-repeat left top;
   color: #ffffff;
   text-shadow: 1px 1px 0 #38819a;
 }
@@ -2130,7 +2130,7 @@ body.html-editor a.buttonBlue {
   font-size: 1em;
   line-height: 1em;
   text-decoration: none !important;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat right -370px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat right -370px;
 }
 div.otpp-cws-content a.buttonBlue span,
 body.html-editor a.buttonBlue span {
@@ -2139,7 +2139,7 @@ body.html-editor a.buttonBlue span {
   height: 35px;
   line-height: 26px;
   cursor: pointer;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -930px -290px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -930px -290px;
   color: #ffffff;
   text-shadow: 1px 1px 0 rgba(0, 39, 66, 0.3);
 }
@@ -2167,7 +2167,7 @@ body.html-editor a.buttonYellow {
   font-size: 1em;
   line-height: 1em;
   text-decoration: none !important;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat right -210px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat right -210px;
 }
 div.otpp-cws-content a.buttonYellow span,
 body.html-editor a.buttonYellow span {
@@ -2176,7 +2176,7 @@ body.html-editor a.buttonYellow span {
   height: 35px;
   line-height: 26px;
   cursor: pointer;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -930px -130px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -930px -130px;
   color: #ffffff;
   text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.2);
 }
@@ -2451,7 +2451,7 @@ body.html-editor blockquote {
   clear: both;
   margin: 0 0 20px;
   padding: 1em 0 0;
-  background: url('../images/background_blockquote_top.gif?v=2015-10-26') no-repeat left top;
+  background: url('/images/background_blockquote_top.gif?v=2015-10-26') no-repeat left top;
   position: relative;
 }
 html.wurfl-mobile div.otpp-cws-content blockquote,
@@ -2509,7 +2509,7 @@ body.html-editor blockquote p {
   line-height: 1.5em;
   color: #3e5e80;
   font-family: SignikaRegular, Arial, Helvetica, sans-serif;
-  background: url('../images/background_blockquote_bottom.gif?v=2015-10-26') no-repeat right bottom;
+  background: url('/images/background_blockquote_bottom.gif?v=2015-10-26') no-repeat right bottom;
 }
 div.otpp-cws-content div.video,
 body.html-editor div.video {
@@ -2696,7 +2696,7 @@ div.otpp-cws-content table tr th strong a,
 body.html-editor table tr th strong a {
   width: 20px;
   height: 20px;
-  background-image: url('../images/background_button_sort.gif?v=2015-10-26');
+  background-image: url('/images/background_button_sort.gif?v=2015-10-26');
   position: absolute;
   right: 0;
   top: -3px;
@@ -2778,7 +2778,7 @@ body.html-editor div.search-pages {
   margin: -1em 0 20px;
   padding-bottom: 10px;
   clear: both;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.otpp-cws-content div.search-pages div.page-links,
 body.html-editor div.search-pages div.page-links {
@@ -2801,7 +2801,7 @@ body.html-editor div.search-pages div.page-links a.previous {
   padding: 0 0 0 18px;
   float: left;
   border-left-width: 0;
-  background-image: url('../images/background_button_pagination_prev.gif?v=2015-10-26');
+  background-image: url('/images/background_button_pagination_prev.gif?v=2015-10-26');
   background-position: left top;
 }
 div.otpp-cws-content div.search-pages div.page-links a.previous:hover,
@@ -2822,7 +2822,7 @@ body.html-editor div.search-pages div.page-links a.next {
   padding: 0 18px 0 0;
   float: right;
   border-left-width: 0;
-  background-image: url('../images/background_button_pagination_next.gif?v=2015-10-26');
+  background-image: url('/images/background_button_pagination_next.gif?v=2015-10-26');
   background-position: right top;
 }
 div.otpp-cws-content div.search-pages div.page-links a.next:hover,
@@ -2846,14 +2846,14 @@ div.otpp-cws-content div.biography,
 body.html-editor div.biography {
   margin-bottom: 1em;
   padding-top: 1px;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
   background-position: left top;
 }
 div.otpp-cws-content div.biography div.biography-list,
 body.html-editor div.biography div.biography-list {
   padding: 2em 20px 1.1em;
   zoom: 1;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
   background-color: #fdfdfe;
 }
 html.wurfl-mobile div.otpp-cws-content div.biography div.biography-list,
@@ -3004,7 +3004,7 @@ div.leftMenu .nav-menu ul li a {
   display: inline-block;
   color: #757575;
   text-decoration: none;
-  background: url('../images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 11px;
+  background: url('/images/background_button_leftnav_arrow_closed.png?v=2015-10-26') no-repeat left 11px;
 }
 html.firefox div.leftMenu .nav-menu ul li a,
 html.ie9 div.leftMenu .nav-menu ul li a,
@@ -3016,7 +3016,7 @@ div.leftMenu .nav-menu ul li a:hover {
 }
 div.leftMenu .nav-menu ul li.open a {
   color: #757575;
-  background-image: url('../images/background_button_leftnav_arrow_open.png?v=2015-10-26');
+  background-image: url('/images/background_button_leftnav_arrow_open.png?v=2015-10-26');
   background-position: left 11px;
 }
 html.firefox div.leftMenu .nav-menu ul li.open a,
@@ -3025,12 +3025,12 @@ html.lt-ie9 div.leftMenu .nav-menu ul li.open a {
   background-position: left 11px;
 }
 div.leftMenu .nav-menu ul li.open ul li a {
-  background-image: url('../images/background_button_leftnav_arrow_closed.png?v=2015-10-26');
+  background-image: url('/images/background_button_leftnav_arrow_closed.png?v=2015-10-26');
 }
 div.leftMenu .nav-menu ul li ul li {
   font-size: 1em;
   border-top: 0;
-  background: url('../images/background_leftNav_li.gif?v=2015-10-26') repeat-x left top;
+  background: url('/images/background_leftNav_li.gif?v=2015-10-26') repeat-x left top;
 }
 div.leftMenu .nav-menu ul li ul li a {
   margin-left: 8px;
@@ -3046,7 +3046,7 @@ div.leftMenu .nav-menu ul li ul li a:hover {
   color: #04809a;
 }
 div.leftMenu .nav-menu ul li ul li.open a {
-  background-image: url('../images/background_button_leftnav_arrow_open.png?v=2015-10-26');
+  background-image: url('/images/background_button_leftnav_arrow_open.png?v=2015-10-26');
   background-position: left 11px;
 }
 html.firefox div.leftMenu .nav-menu ul li ul li.open a,
@@ -3055,7 +3055,7 @@ html.lt-ie9 div.leftMenu .nav-menu ul li ul li.open a {
   background-position: left 11px;
 }
 div.leftMenu .nav-menu ul li ul li.open ul li a {
-  background-image: url('../images/background_button_leftnav_arrow_closed.png?v=2015-10-26');
+  background-image: url('/images/background_button_leftnav_arrow_closed.png?v=2015-10-26');
   background-position: left center;
 }
 html.firefox div.leftMenu .nav-menu ul li ul li.open ul li a,
@@ -3237,7 +3237,7 @@ ul#carouselNav li a {
   height: 20px;
   overflow: hidden;
   display: block;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -257px transparent;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -257px transparent;
 }
 ul#carouselNav li a:hover {
   background-position: -20px -227px;
@@ -3245,18 +3245,18 @@ ul#carouselNav li a:hover {
 html.wurfl-mobile ul#carouselNav li a {
   width: 26px;
   height: 26px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -277px transparent;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -277px transparent;
   background-size: 100%;
 }
 html.wurfl-mobile ul#carouselNav li a:hover {
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -277px transparent;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -277px transparent;
   background-size: 100% auto;
 }
 ul#carouselNav li.selected a {
   background-position: -20px -227px;
 }
 html.wurfl-mobile ul#carouselNav li.selected a {
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -277px transparent;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -20px -277px transparent;
   background-size: 100% auto;
 }
 div.homeRows {
@@ -3293,7 +3293,7 @@ div.homeRows div.clearfloat div.portlet-column div.journal-content-article h3 {
   height: 44px;
   line-height: 45px;
   text-shadow: 1px 1px 0 rgba(0, 39, 66, 0.75);
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -325px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -325px;
 }
 div.homeRows div.clearfloat div.portlet-column div.journal-content-article div {
   padding: 14px;
@@ -3329,7 +3329,7 @@ div.homeRows div.clearfloat div.portlet-column div.journal-content-article div a
   text-transform: uppercase;
   text-decoration: none;
   color: #3e5e80;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
 }
 div.homeRows div.clearfloat div.portlet-column div.journal-content-article div a.btnReadMore:hover {
   text-decoration: underline;
@@ -3391,7 +3391,7 @@ div.w960 div.relAdd div.section div.head {
 div.w760 div.relAdd div.section div.head,
 div.w520 div.relAdd div.section div.head,
 html.wurfl-mobile div.relAdd div.section div.head {
-  background: #39335b url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x bottom;
+  background: #39335b url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x bottom;
 }
 div.relAdd div.section div.head h6 {
   width: auto;
@@ -3509,7 +3509,7 @@ div.relAdd div.section.bio div.middle ul li a {
   text-transform: uppercase;
   text-decoration: none;
   color: #004786;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
   font-size: 0.8em;
   line-height: 1.2em;
 }
@@ -3541,7 +3541,7 @@ div.footer div.bgLeft {
   height: 22px;
   left: -34px;
   top: 0;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -390px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -390px;
 }
 div.footer div.bgRight {
   display: none;
@@ -3555,7 +3555,7 @@ div.w760 div.footer {
 div.w760 div.footer div.bgLeft {
   width: 726px;
   height: 19px;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
 }
 div.w760 div.w520 div.footer {
   width: 554px;
@@ -3707,7 +3707,7 @@ footer div.contMemb a span {
   background: #ffffff;
 }
 footer div.contMemb a span + span {
-  background: url('../images/sm_button_share.png?v=2015-10-26') 100%;
+  background: url('/images/sm_button_share.png?v=2015-10-26') 100%;
 }
 footer div.shareButtons {
   overflow: hidden;
@@ -3733,7 +3733,7 @@ footer div.shareButtons div.grey div.arrow {
   width: 500px;
   height: 24px;
   overflow: hidden;
-  background: url('../images/background_mobile_share.png?v=2015-10-26');
+  background: url('/images/background_mobile_share.png?v=2015-10-26');
   position: absolute;
   right: -30px;
   top: -12px;
@@ -4756,7 +4756,7 @@ div.otpp-cws-layout-col-3-main .col1 div.photo-gallery-details {
 div.assetdisplay-list-item {
   margin-top: 1.1em;
   padding-bottom: 0.5em;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.assetdisplay-list-item h4 {
   margin-top: 0;
@@ -4821,7 +4821,7 @@ div.assetdisplay-list-results div.search-pages {
   margin: -1em 0 20px;
   padding-bottom: 10px;
   clear: both;
-  background: url('../images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
+  background: url('/images/background_heading_dots.gif?v=2015-10-26') repeat-x left bottom;
 }
 div.assetdisplay-list-results div.search-pages div.page-links {
   min-height: 12px;
@@ -4840,7 +4840,7 @@ html.lt-ie9 div.assetdisplay-list-results div.search-pages div.page-links a {
 div.assetdisplay-list-results div.search-pages div.page-links a.previous {
   padding: 0 0 0 18px;
   border-left-width: 0;
-  background-image: url('../images/background_button_pagination_prev.gif?v=2015-10-26');
+  background-image: url('/images/background_button_pagination_prev.gif?v=2015-10-26');
   background-position: left top;
   position: absolute;
 }
@@ -4853,7 +4853,7 @@ html.lt-ie9 div.assetdisplay-list-results div.search-pages div.page-links a.prev
 div.assetdisplay-list-results div.search-pages div.page-links a.next {
   padding: 0 18px 0 0;
   border-left-width: 0;
-  background-image: url('../images/background_button_pagination_next.gif?v=2015-10-26');
+  background-image: url('/images/background_button_pagination_next.gif?v=2015-10-26');
   background-position: right top;
   position: absolute;
   right: 0;
@@ -5003,7 +5003,7 @@ div.assetsearchselect-portlet form.aui-form div.aui-button-holder {
   height: 22px;
 }
 div.assetsearchselect-portlet form.aui-form div.aui-button-holder div.submit_button {
-  background: url(../images/sm_button.png?v=2015-10-26) no-repeat left -96px;
+  background: url(/images/sm_button.png?v=2015-10-26) no-repeat left -96px;
   display: block;
   float: left;
   height: 22px;
@@ -5012,10 +5012,10 @@ div.assetsearchselect-portlet form.aui-form div.aui-button-holder div.submit_but
 div.assetsearchselect-portlet form.aui-form div.aui-button-holder div.submit_button:hover,
 div.assetsearchselect-portlet form.aui-form div.aui-button-holder div.submit_button input.slidingDoors:hover {
   color: #ffffff;
-  background: url(../images/sm_button.png?v=2015-10-26) no-repeat left -128px;
+  background: url(/images/sm_button.png?v=2015-10-26) no-repeat left -128px;
 }
 div.assetsearchselect-portlet form.aui-form div.aui-button-holder span.aui-button-content {
-  background: url(../images/sm_button.png?v=2015-10-26) no-repeat right 0;
+  background: url(/images/sm_button.png?v=2015-10-26) no-repeat right 0;
   display: block;
   float: left;
   font-weight: normal;
@@ -5023,7 +5023,7 @@ div.assetsearchselect-portlet form.aui-form div.aui-button-holder span.aui-butto
 }
 div.assetsearchselect-portlet form.aui-form div.aui-button-holder span.aui-button-content:hover {
   color: #ffffff;
-  background: url(../images/sm_button.png?v=2015-10-26) no-repeat right -32px;
+  background: url(/images/sm_button.png?v=2015-10-26) no-repeat right -32px;
 }
 div.assetsearchselect-portlet form.aui-form div.aui-button-holder input.slidingDoors {
   background: none;
@@ -5119,7 +5119,7 @@ div.clear {
   left: -10px;
   width: 10px;
   height: 48px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat right -135px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat right -135px;
   display: block;
   z-index: 100;
 }
@@ -5132,7 +5132,7 @@ html.ie9 .topNav > li.selected .bgNavLeft2 {
   right: -10px;
   width: 10px;
   height: 48px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -135px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -135px;
   display: block;
   z-index: 100;
 }
@@ -5196,13 +5196,13 @@ html.firefox body.dockbar-ready.controls-visible div.w760 div.spotlight {
   position: absolute;
   height: 100%;
   z-index: 6;
-  background-image: url('../images/red-O-graphic.png?v=2015-10-26');
+  background-image: url('/images/red-O-graphic.png?v=2015-10-26');
   background-repeat: no-repeat;
   background-position: 498px top;
   overflow: hidden;
 }
 html.lt-ie9 .spotlight .cover-center {
-  background-image: url('../images/red-O-graphic.png?v=2015-10-26');
+  background-image: url('/images/red-O-graphic.png?v=2015-10-26');
   background-position: 498px top;
 }
 /*swoosh */
@@ -5278,7 +5278,7 @@ html.lt-ie9 .spotlight .cover-center {
 }
 .spotlight-details {
   width: 275px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat -491px bottom;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat -491px bottom;
   min-height: 260px;
   overflow: hidden;
   position: absolute;
@@ -5348,7 +5348,7 @@ html.wurfl-mobile .spotlight-details {
   line-height: 36px;
   text-decoration: none;
   font: 1.2em SignikaLight, Arial, Helvetica, sans-serif;
-  background: url('../images/button_home_read_more.png?v=2015-10-26') no-repeat scroll right -110px transparent;
+  background: url('/images/button_home_read_more.png?v=2015-10-26') no-repeat scroll right -110px transparent;
 }
 .spotlight-details a.learn-more span {
   float: left;
@@ -5362,7 +5362,7 @@ html.wurfl-mobile .spotlight-details {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-shadow: 1px 1px 0 rgba(0, 39, 66, 0.75);
-  background: url('../images/button_home_read_more.png?v=2015-10-26') no-repeat scroll left top transparent;
+  background: url('/images/button_home_read_more.png?v=2015-10-26') no-repeat scroll left top transparent;
   cursor: pointer;
 }
 .spotlight-details a.learn-more:hover {
@@ -5458,7 +5458,7 @@ div.w760 .spotlight .button-container {
   position: relative;
   width: 21px;
   height: 21px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -6px -260px transparent;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -6px -260px transparent;
   background-repeat: no-repeat;
   overflow: hidden;
   display: block;
@@ -5471,7 +5471,7 @@ div.w760 .spotlight .button-container {
 .wurfl-mobile .spotlight .button-container .button-wrapper .button {
   width: 26px;
   height: 26px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -36px -260px transparent;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -36px -260px transparent;
 }
 .wurfl-mobile .spotlight .button-container .button-wrapper .button:active {
   background-position: -36px -290px;
@@ -5520,7 +5520,7 @@ div.w760 .spotlight .button-container {
   line-height: 36px;
   text-decoration: none;
   font: 1.2em SignikaLight, Arial, Helvetica, sans-serif;
-  background: url('../images/button_home_read_more.png?v=2015-10-26') no-repeat scroll right -110px transparent;
+  background: url('/images/button_home_read_more.png?v=2015-10-26') no-repeat scroll right -110px transparent;
 }
 .learn-more span {
   float: left;
@@ -5534,7 +5534,7 @@ div.w760 .spotlight .button-container {
   white-space: nowrap;
   text-overflow: ellipsis;
   text-shadow: 1px 1px 0 rgba(0, 39, 66, 0.75);
-  background: url('../images/button_home_read_more.png?v=2015-10-26') no-repeat scroll left top transparent;
+  background: url('/images/button_home_read_more.png?v=2015-10-26') no-repeat scroll left top transparent;
   cursor: pointer;
 }
 .learn-more:hover {
@@ -5550,7 +5550,7 @@ div.w760 .spotlight .button-container {
   text-transform: uppercase;
   text-decoration: none;
   color: #004786;
-  background: url('../images/button-read-more.png?v=2015-10-26') no-repeat left center;
+  background: url('/images/button-read-more.png?v=2015-10-26') no-repeat left center;
 }
 .btnReadMore:hover {
   text-decoration: underline;
@@ -5558,7 +5558,7 @@ div.w760 .spotlight .button-container {
 .arrow {
   padding-left: 12px;
   display: inline-block;
-  background: url('../images/bg_link_arrow.png') no-repeat 0 5px;
+  background: url('/images/bg_link_arrow.png') no-repeat 0 5px;
 }
 /* tables */
 table.tablesorter {
@@ -5579,7 +5579,7 @@ table.tablesorter {
   border-left: 0 !important;
 }
 table.tablesorter thead tr .header {
-  background-image: url('../images/bg.gif');
+  background-image: url('/images/bg.gif');
   background-repeat: no-repeat;
   background-position: center right;
   cursor: pointer;
@@ -5594,10 +5594,10 @@ table.tablesorter tbody tr.odd td {
   background-color: #F0F0F6;
 }
 table.tablesorter thead tr .headerSortUp {
-  background-image: url('../images/asc.gif');
+  background-image: url('/images/asc.gif');
 }
 table.tablesorter thead tr .headerSortDown {
-  background-image: url('../images/desc.gif');
+  background-image: url('/images/desc.gif');
 }
 table.tablesorter .sort {
   display: none;
@@ -5648,7 +5648,7 @@ html.ie9 .otpp-cws-layout-homepage .topNav > li {
   z-index: 0 !important;
 }
 .otpp-cws-layout-homepage .topNav > li:hover {
-  background: url('../images/nav-sprite.png?v=2015-10-26') repeat-x 0 -68px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') repeat-x 0 -68px;
   z-index: 50;
 }
 .otpp-cws-layout-homepage .topNav > li.noSubCont {
@@ -5669,11 +5669,11 @@ html.ie9 .otpp-cws-layout-homepage .topNav > li > .subCont {
   top: 36px !important;
 }
 .otpp-cws-layout-homepage .topNav > li.left > .subCont {
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat right bottom;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat right bottom;
 }
 .otpp-cws-layout-homepage .topNav > li.right > .subCont {
   left: -288px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left bottom;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left bottom;
 }
 .otpp-cws-layout-homepage .topNav > li > .subCont .bgNavLeft,
 .otpp-cws-layout-homepage .topNav > li > .subCont .bgNavRight {
@@ -5684,7 +5684,7 @@ html.ie9 .otpp-cws-layout-homepage .topNav > li > .subCont {
   top: -41px;
   width: 20px;
   height: 58px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat right top;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat right top;
   display: block;
   z-index: 100;
 }
@@ -5693,7 +5693,7 @@ html.ie9 .otpp-cws-layout-homepage .topNav > li > .subCont {
   top: -41px;
   width: 286px;
   height: 58px;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left top;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left top;
   display: block;
   z-index: 100;
 }
@@ -5757,7 +5757,7 @@ html.ie9 .otpp-cws-layout-homepage .topNav > li > .subCont {
   text-transform: uppercase;
   text-indent: 15px;
   color: #3e5e80;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat left -198px;
 }
 .otpp-cws-layout-homepage .topNav > li.left .subCont > a {
   float: left;
@@ -5861,7 +5861,7 @@ div.landing-page-carousel ol.landing-page-carousel-select li a {
   height: 0;
   display: block;
   overflow: hidden;
-  background-image: url('../images/landing-page-carousel-dots.png');
+  background-image: url('/images/landing-page-carousel-dots.png');
   background-repeat: no-repeat;
   background-position: right 0;
 }
@@ -6011,13 +6011,13 @@ div.w960 div.fullPageCarousel div.fullPageCarousel-shadow {
   width: 884px;
   height: 20px;
   left: -34px;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -390px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -390px;
 }
 div.w760 div.fullPageCarousel div.fullPageCarousel-shadow {
   width: 726px;
   height: 20px;
   left: 0;
-  background: url('../images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -5px -421px;
 }
 html.wurfl-mobile div.fullPageCarousel div.fullPageCarousel-shadow {
   display: none;
@@ -6030,7 +6030,7 @@ div.fullPageCarousel div.fullPageCarousel-details {
   min-height: 237px;
   overflow: hidden;
   z-index: 3;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat -491px bottom;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat -491px bottom;
 }
 div.w960 div.fullPageCarousel div.fullPageCarousel-details {
   right: 40px;
@@ -6105,14 +6105,14 @@ div.fullPageCarousel .red-O-overlay {
   width: 100%;
   height: 100%;
   right: 10px;
-  background-image: url(../images/red-O-graphic.png?v=2015-10-26);
+  background-image: url(/images/red-O-graphic.png?v=2015-10-26);
   background-repeat: no-repeat;
   background-position: right top;
   background-size: 70%;
   z-index: 3;
 }
 .wurfl-mobile div.fullPageCarousel .red-O-overlay {
-  background-image: url(../images/red-O-graphic.png?v=2015-10-26);
+  background-image: url(/images/red-O-graphic.png?v=2015-10-26);
   /* background-position: right 0; */
 
   /* right: -190px; */
@@ -6129,7 +6129,7 @@ div.fullPageCarousel .red-O-overlay {
   left: 0;
 }
 html.lt-ie9 div.fullPageCarousel .red-O-overlay {
-  background-image: url(../images/red-O-graphic.png?v=2015-10-26);
+  background-image: url(/images/red-O-graphic.png?v=2015-10-26);
 }
 div.fullPageCarousel ol.fullPageCarousel-dots {
   position: absolute;
@@ -6162,7 +6162,7 @@ div.fullPageCarousel ol.fullPageCarousel-dots li a {
   height: 0;
   padding-top: 21px;
   overflow: hidden;
-  background: url('../images/nav-sprite.png?v=2015-10-26') no-repeat scroll -6px -260px;
+  background: url('/images/nav-sprite.png?v=2015-10-26') no-repeat scroll -6px -260px;
 }
 html.wurfl-mobile div.fullPageCarousel ol.fullPageCarousel-dots li a {
   width: 26px;

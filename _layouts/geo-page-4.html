@@ -11,7 +11,7 @@ layout: default
   </div>
 </article>
 <script>
-	function animateCrosshairs( 'slidePosition' ){
+	function animateCrosshairs( clickPosition ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
 	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
@@ -211,13 +211,13 @@ layout: default
 				$('div.fullPageContent .coordinatesText span').replaceWith($(contentItems[clickPosition]).find('.coordinatesText span').clone(true));
 				
 				var slidePosition = (clickPosition == 0) ? ((currentSelected<=1) ? 0 : (-(dots.length)*w)) : (-clickPosition * w );
-				
+				animateCrosshairs(clickPosition);
 				window.__fullPageCarouselAnimation = true;
 				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
 					if (clickPosition == 0) content.css({'margin-left': 0});
 					window.__fullPageCarouselAnimation = false;
 					
-					animateCrosshairs('slidePosition');
+					
 				});
 				$(this).parent().addClass('selected');
 

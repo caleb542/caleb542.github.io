@@ -136,4 +136,33 @@ html.wurfl-mobile div.fullPageCarousel div.fullPageCarousel-carousel ol li {
     height: 135px;
     
 }
+ a.buttonBlue {
+  float: left;
+  padding: 0 26px 0 0;
+  white-space: nowrap;
+  height: 35px;
+  font-size: 1em;
+  line-height: 1em;
+  text-decoration: none !important;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat right -370px;
+}
+a.buttonBlue span {
+  display: block;
+  padding: 0 8px 0 16px;
+  height: 35px;
+  line-height: 26px;
+  cursor: pointer;
+  background: url('/images/otpp_general_sprite.png?v=2015-10-26') no-repeat -930px -290px;
+  color: #ffffff;
+  text-shadow: 1px 1px 0 rgba(0, 39, 66, 0.3);
+}
+a.buttonBlue:focus {
+  text-decoration: none !important;
+  background-position: right -410px;
+}
+a.buttonBlue:focus span {
+  color: #ffffff;
+  text-shadow: 1px 1px 0 rgba(0, 39, 66, 0.3);
+  background-position: -930px -330px;
+}
 /*  end carousel code here  */

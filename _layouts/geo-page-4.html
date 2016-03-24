@@ -78,7 +78,13 @@ layout: default
 			$(".coordinateText").html(coordinateText);
 			
 			//instantiate a TimelineLite    
-	
+		TweenMax.fromTo(coordsText,2,{
+					opacity:0
+					},
+					{
+					opacity:1
+					}
+				);
 		TweenMax.to(coordsText,2,{
 				opacity:0, position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px', ease: Back.easeOut.config(4)
 		});

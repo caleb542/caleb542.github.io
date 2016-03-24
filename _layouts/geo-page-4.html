@@ -86,10 +86,10 @@ layout: default
 					}
 				);
 		TweenMax.to(coordsText,2,{
-				 position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px', ease: Power3.easeInOut
+				 position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px', ease:Sin.easeInOut
 		});
 		TweenMax.to(crosshairs, 2, {
-			backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power3.easeInOut
+			backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Sin.easeInOut
 			
 		});
 	}

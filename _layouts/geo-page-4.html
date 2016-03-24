@@ -43,9 +43,13 @@ layout: default
 			
 			//instantiate a TimelineLite    
 	
-	TweenMax.to(coordsText, 0,{
-		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone});
-	TweenMax.to(crosshairs, 0, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone});
+		$(coordsText).css({
+			position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone
+		});
+		$(crosshairs).css({
+			backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone
+			
+		});
 	
 	}
 </script>

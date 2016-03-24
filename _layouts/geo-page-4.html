@@ -150,7 +150,7 @@ layout: default
 
 	function resetFullPageCarouselTimer(){
 		clearFullPageCarouselTimer();
-		window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, $('input#fullPageCarouselTimer').val()*5000);// set the slide timer
+		window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, $('input#fullPageCarouselTimer').val()*1000);// set the slide timer
 	}
 	
 	
@@ -249,7 +249,7 @@ layout: default
 		},function(e){
 			setTimeout(function(){
 				resetFullPageCarouselTimer();
-			},3000);
+			},3);
 		});
 		if ($('div.fullPageCarousel').length > 0){
 			setupFullPageCarouselSwipe();

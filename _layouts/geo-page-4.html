@@ -14,8 +14,42 @@ layout: default
 <script>
 	$(document).ready( function(){
 		var pos = 0;
-		animateCrosshairs( pos );alert("it begins");
+		setupCrosshairs( pos );console.log("onload: it begins");
 	})
+		function setupCrosshairs( pos ){
+		console.log("setupCrosshairs begins");
+		var crosshairs = $(".diamond, .horizontal, .vertical");
+		var coordsText = $(".coordinateText");
+	//	$(".crosshair").click(function(e){
+			var position = $(".crosshair").offset();
+			var cx = position.left;
+			var cy = position.top;	
+		//	var x = e.pageX - this.offsetLeft;
+		//	var y = e.pageY - this.offsetTop;
+			if( pos == 1){
+			
+				var x = 330;
+				var y = 63;
+			} else if( pos == 0 ){ 
+			
+				var x = 407;
+				var y = 37;
+			}
+			
+			var coordinateX = x ;//- cx;
+			var coordinateY = y ;//- cy;
+			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
+			$(".coordinateText").html(coordinateText);
+			
+			//instantiate a TimelineLite    
+	
+	TweenMax.to(coordsText, 0,{
+		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone});
+	TweenMax.to(crosshairs, 0, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone});
+	
+	}
+</script>
+<!--<script>
 	function animateCrosshairs( pos ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
 		var coordsText = $(".coordinateText");
@@ -233,5 +267,5 @@ layout: default
 	};	
 })();
 		// ]]>
-	</script>
+	</script>-->
 	

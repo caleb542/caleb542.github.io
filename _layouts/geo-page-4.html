@@ -13,10 +13,10 @@ layout: default
 
 <script>
 	$(document).ready( function(){
-		var pos = 0;
-		setupCrosshairs( pos );console.log("onload: it begins");
+		var openingSlide = 0;
+		setupCrosshairs( openingSlide );console.log("onload: it begins");
 	})
-		function setupCrosshairs( pos ){
+		function setupCrosshairs( pos1 ){
 		console.log("setupCrosshairs begins");
 		var crosshairs = $(".diamond, .horizontal, .vertical");
 		var coordsText = $(".coordinateText");
@@ -26,11 +26,11 @@ layout: default
 			var cy = position.top;	
 		//	var x = e.pageX - this.offsetLeft;
 		//	var y = e.pageY - this.offsetTop;
-			if( pos == 1){
+			if( pos1 == 1){
 			
 				var x = 330;
 				var y = 63;
-			} else if( pos == 0 ){ 
+			} else if( pos1 == 0 ){ 
 			
 				var x = 407;
 				var y = 37;

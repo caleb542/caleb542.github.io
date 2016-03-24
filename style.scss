@@ -413,7 +413,7 @@ nav {
     background-repeat: repeat-y; 
     background-position: 0 20px;
     z-index: 3;
-    transition: 0.5s;
+    transition: 3s;
 	
 }
 .crosshair .horizontal{
@@ -428,7 +428,7 @@ nav {
     background-repeat: repeat-x; 
     background-position: 20px 0; 
     z-index: 3;
-    transition: 0.5s;
+    transition: 3s;
 	
 }
 .crosshair .coordinateText {
@@ -451,7 +451,7 @@ nav {
     background-repeat: no-repeat;
     background-position: 20px -20px; 
     z-index: 3;
-    transition: 0.5s;
+    transition: 3s;
 }
 
 .wrapper-footer {

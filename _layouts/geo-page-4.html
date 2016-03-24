@@ -97,7 +97,8 @@ layout: default
 <script type="text/javascript">
 
 	var FullPageCarousel = (function(){
-	
+	var inputvalue = $(input#fullPageCarouselTimer).val();
+	inputValue = 5;
 	// touch-swipe handler
 	function setupFullPageCarouselSwipe(){
 		if (typeof Hammer != 'function') return;
@@ -150,7 +151,9 @@ layout: default
 
 	function resetFullPageCarouselTimer(){
 		clearFullPageCarouselTimer();
-		window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, $('input#fullPageCarouselTimer').val()*1000);// set the slide timer
+	//	window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, $('input#fullPageCarouselTimer').val()*1000);// set the slide timer
+		window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, inputValue*1000);// set the slide timer
+		
 	}
 	
 	

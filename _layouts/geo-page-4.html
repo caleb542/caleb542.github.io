@@ -12,6 +12,9 @@ layout: default
 </article>
 
 <script>
+	$(document).ready( function(){
+		animateCrosshairs( pos );alert("it begins");
+	})
 	function animateCrosshairs( pos ){
 		var crosshairs = $(".diamond, .horizontal, .vertical");
 		var coordsText = $(".coordinateText");

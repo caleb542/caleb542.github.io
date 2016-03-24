@@ -187,7 +187,7 @@ layout: default
 
 		$('div.fullPageCarousel').each(function(){
 		
-			var speed = 500;
+			var speed = 1000;
 			var easing = 'swing';
 			var t = $(this);
 			var w = null;
@@ -240,7 +240,7 @@ layout: default
 		},function(e){
 			setTimeout(function(){
 				resetFullPageCarouselTimer();
-			},100);
+			},3000);
 		});
 		if ($('div.fullPageCarousel').length > 0){
 			setupFullPageCarouselSwipe();

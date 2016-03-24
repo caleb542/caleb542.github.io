@@ -79,7 +79,8 @@ layout: default
 			
 			//instantiate a TimelineLite    
 	TweenMax.from(coordsText,2,{
-		opacity:0.1
+		opacity:0.1,
+		ease: Power2.easeOut
 	})
 	TweenMax.to(coordsText,2,{
 		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Back.easeOut.config(4)});

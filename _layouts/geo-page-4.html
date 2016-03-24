@@ -80,7 +80,7 @@ layout: default
 			//instantiate a TimelineLite    
 	
 	TweenMax.to(coordsText, 0.4,{
-		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Power0.easeNone});
+		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Back.easeOut.config(4)});
 	TweenMax.to(crosshairs, 0.4, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Power0.easeNone});
 	
 	}

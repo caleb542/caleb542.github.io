@@ -83,7 +83,7 @@ layout: default
 		ease: Bounce.easeOut
 	})
 	TweenMax.to(coordsText,2,{
-		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Back.easeOut.config(4)});
+		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',	ease: Bounce.easeOut});
 	TweenMax.to(crosshairs, 2, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Back.easeOut.config(4)});
 	
 	}

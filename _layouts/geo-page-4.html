@@ -78,14 +78,12 @@ layout: default
 			$(".coordinateText").html(coordinateText);
 			
 			//instantiate a TimelineLite    
-		TweenMax.from(coordsText,2,{
-			opacity:0.1
-		});
+	
 		TweenMax.to(coordsText,2,{
-			position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px', ease: Back.easeOut.config(2)
+				opacity:0, position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px', ease: Back.easeOut.config(4)
 		});
 		TweenMax.to(crosshairs, 2, {
-			backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Back.easeOut.config(2)
+			backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Back.easeOut.config(4)
 			
 		});
 	}

@@ -42,9 +42,9 @@ layout: default
 			$(".coordinateText").html(coordinateText);
 			
 			//instantiate a TimelineLite    
-	
+		
 		$(coordsText).css({
-			position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',opacity:0.1
+			position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',opacity:1
 		});
 		$(crosshairs).css({
 			backgroundPosition:coordinateX + "px " + coordinateY + "px"
@@ -78,7 +78,9 @@ layout: default
 			$(".coordinateText").html(coordinateText);
 			
 			//instantiate a TimelineLite    
-	
+	TweenMax.from(coordsTest,2,{
+		opacity:0.1
+	})
 	TweenMax.to(coordsText,2,{
 		position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',ease: Back.easeOut.config(4)});
 	TweenMax.to(crosshairs, 2, {backgroundPosition:coordinateX + "px " + coordinateY + "px", ease: Back.easeOut.config(4)});

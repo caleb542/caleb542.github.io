@@ -4,12 +4,13 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### Some information about me
 
-### More Information
+*(More Information coming ~~son~~~ soon.)*
 
-A place to include any other types of information that you'd like to include about yourself.
+Markdown.
+I don't know why we do this, markdown is like markup only annoyingly now I have to learn both.  It would be tricky to have a client learn to write blogs in either Markup or Markdown.
 
 ### Contact me
-
+_(well **not really**)_
 [email@domain.com](mailto:email@domain.com)

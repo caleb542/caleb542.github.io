@@ -471,9 +471,9 @@ footer {
 	text-align: center;
 }
 a i.svg-icon:hover{
-
-	transform: rotate(360deg);
+	transform: rotate(180deg);
 	transition:all 1.5s ease;
+	-webkit-transform:all 1.5s ease;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

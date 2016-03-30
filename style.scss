@@ -470,7 +470,14 @@ footer {
 	padding: 20px 0;
 	text-align: center;
 }
-a i.svg-icon:hover{
+a i.svg-icon,
+a i.svg-icon:active{
+	transform: rotate(-350deg);
+	transition:all 1s ease;
+	-webkit-transform:all 1s ease;
+}
+a i.svg-icon:hover,
+a i.svg-icon:focus{
 	transform: rotate(350deg);
 	transition:all 1s ease;
 	-webkit-transform:all 1s ease;

@@ -474,13 +474,13 @@ a i.svg-icon,
 a i.svg-icon:active{
 	transform: rotate(0deg);
 	transition:all 0.25s ease;
-	-webkit-transform:all 0.25s ease;
+	-webkit-transform:all .25s ease;
 }
 a i.svg-icon:hover,
 a i.svg-icon:focus{
-	transform: rotate(deg);
-	transition:all 0.75s ease;
-	-webkit-transform:all 0.75s ease;
+	transform: rotate(335deg);
+	transition:all .75s ease;
+	-webkit-transform:all .75s ease;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

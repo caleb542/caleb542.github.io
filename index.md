@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Caleb G HAmilton
+title: Caleb Hamilton
 ---
 ## That's *me*.
 

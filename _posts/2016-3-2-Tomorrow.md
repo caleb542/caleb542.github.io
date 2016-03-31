@@ -32,4 +32,3 @@ Inline markup styles:
 - `code()`
 
 > She said it was the best day of her life >> Simply. The. Best.
-

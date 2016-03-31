@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Front Page
 ---
 
 ## CALEB G. HAMILTON

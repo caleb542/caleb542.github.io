@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Something new for today
+title: Tomorrow
 ---
 
 ## Second header (H2)

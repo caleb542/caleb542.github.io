@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 
+title:
 ---
 
 ## CALEB G. HAMILTON
@@ -8,7 +8,4 @@ title:
 I am working on becoming a full-stack developer, although I do spend a most of my time in templates, styles and html.  
 I enjoy new experiences, this is one of my newer projects.  The github experience is also new for me.
 
-Jekyl is ok, so far.  
-
-
-
+Jekyll is o.k. so far.  

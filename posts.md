@@ -9,7 +9,7 @@ permalink: /posts/
 
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
 
-      <div class="">
+      <div class="entry">
         {{ post.content }}
       </div>
 

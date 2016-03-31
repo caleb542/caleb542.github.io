@@ -6,7 +6,7 @@ layout: default
 
   <h1>{{ page.title }}</h1>
  {% include carousel.html %}
-  <div class="entry">
+  <div class="">
     {{ content }}
   </div>
 </article>
@@ -23,34 +23,34 @@ layout: default
 	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
 			var cx = position.left;
-			var cy = position.top;	
+			var cy = position.top;
 		//	var x = e.pageX - this.offsetLeft;
 		//	var y = e.pageY - this.offsetTop;
 			if( pos1 == 1){
-			
+
 				var x = 330;
 				var y = 63;
-			} else if( pos1 == 0 ){ 
-			
+			} else if( pos1 == 0 ){
+
 				var x = 407;
 				var y = 37;
 			}
-			
+
 			var coordinateX = x ;//- cx;
 			var coordinateY = y ;//- cy;
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".coordinateText").html(coordinateText);
-			
-			//instantiate a TimelineLite    
-		
+
+			//instantiate a TimelineLite
+
 		$(coordsText).css({
 			position:'absolute',left:(coordinateX)  + 10 + 'px',top:(coordinateY) - 15 + 'px',opacity:1
 		});
 		$(crosshairs).css({
 			backgroundPosition:coordinateX + "px " + coordinateY + "px"
-			
+
 		});
-	
+
 	}
 
 	function animateCrosshairs( pos ){
@@ -59,25 +59,25 @@ layout: default
 	//	$(".crosshair").click(function(e){
 			var position = $(".crosshair").offset();
 			var cx = position.left;
-			var cy = position.top;	
+			var cy = position.top;
 		//	var x = e.pageX - this.offsetLeft;
 		//	var y = e.pageY - this.offsetTop;
 			if( pos == 1){
-			
+
 				var x = 330;
 				var y = 63;
-			} else if( pos == 0 ){ 
-			
+			} else if( pos == 0 ){
+
 				var x = 407;
 				var y = 37;
 			}
-			
+
 			var coordinateX = x ;//- cx;
 			var coordinateY = y ;//- cy;
 			var coordinateText = "" + x +" .000° N," + y +  ".000° E";
 			$(".coordinateText").html(coordinateText);
-			
-			//instantiate a TimelineLite    
+
+			//instantiate a TimelineLite
 		TweenMax.fromTo(coordsText,2,{
 					opacity:0
 					},
@@ -90,7 +90,7 @@ layout: default
 		});
 		TweenMax.to(crosshairs, 1, {
 			backgroundPosition:coordinateX + "px " + coordinateY + "px",ease: Sine.easeOut
-			
+
 		});
 	}
 </script>
@@ -102,12 +102,12 @@ layout: default
 	// touch-swipe handler
 	function setupFullPageCarouselSwipe(){
 		if (typeof Hammer != 'function') return;
-		$('div.red-O-overlay').each(function(){	
+		$('div.red-O-overlay').each(function(){
 			var randomID='_'+randomString();
 			var t=$(this)
 				t.attr('id', randomID);// attach an ID to every carousel on the page
 			var hammerFullPageCarousel=new Hammer(document.getElementById(randomID));
-			
+
 			hammerFullPageCarousel.onswipe=function(e){
 				var b=t.parents('div.fullPageCarousel').find('ol.fullPageCarousel-dots li.selected');// selected button container
 				var s=t.parents('div.fullPageCarousel').find('ol.fullPageCarousel-dots li');// LI siblings
@@ -153,31 +153,31 @@ layout: default
 		clearFullPageCarouselTimer();
 	//	window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, $('input#fullPageCarouselTimer').val()*1000);// set the slide timer
 		window.__fullPageCarousel_interval = setInterval(function(){FullPageCarouselTimer()}, inputValue*1000);// set the slide timer
-		
+
 	}
-	
-	
+
+
 	function setUp(){
-		var desktopImageHeight =  256; 
+		var desktopImageHeight =  256;
 		var desktopImageWidth = 612;
 		var coeff = desktopImageHeight / desktopImageWidth;
 		var winWidth = $(window).width();
-	
-			if(($('html').hasClass('wurfl-mobile'))){		
-				
+
+			if(($('html').hasClass('wurfl-mobile'))){
+
 				var liWidth = $('.wurfl-mobile div.fullPageCarousel-carousel ol li').width();
-				
+
 				if(winWidth !== liWidth){ //if the adjustment has not already been made
 					liWidth = winWidth;
 					var newHeight = winWidth * coeff; //mobile
 					adjustWidthHeight(liWidth,newHeight);
 				}
-				
+
 			}
 			else if( $('html').hasClass('desktop') ){
-				
+
 					$('.fullPageCarousel, .fullPageCarousel-carousel').css({
-					'height':desktopImageHeight  
+					'height':desktopImageHeight
 					});
 			};
 			function adjustWidthHeight(winWidth, newHeight, liWidth) { //mobile
@@ -188,17 +188,17 @@ layout: default
 					'width':winWidth,
 					'height':newHeight
 				});
-				
+
 				$('.wurfl-mobile div.fullPageCarousel-carousel ol').css({
-					'width':(winWidth * carouselLength)				
+					'width':(winWidth * carouselLength)
 			});
-			
+
 		};
 	//};
-	
+
 
 		$('div.fullPageCarousel').each(function(){
-		
+
 			var speed = 1000;
 			var easing = 'swing';
 			var t = $(this);
@@ -217,13 +217,13 @@ layout: default
 				t.attr('cloned', 'true');
 			}
 			content.css({ 'width': (contentItems.length+1) * content.width() +'px' });
-				
+
 			var dots=t.find('ol.fullPageCarousel-dots li');
 			dots.find('a').off();
 			dots.find('a').on('click', function(){
 				if (window.__fullPageCarouselAnimation == true) return;
 				else window.__fullPageCarouselAnimation = true;
-				
+
 				var currentSelected = dots.index($(this).parents('ol').find('li.selected'));
 				var clickPosition = dots.index($(this).parent());
 
@@ -233,11 +233,11 @@ layout: default
 				$('div.fullPageCarousel-details h1').replaceWith($(contentItems[clickPosition]).find('h1').clone(true));
 				$('div.fullPageCarousel-details div').replaceWith($(contentItems[clickPosition]).find('div').clone(true));
 				$('div.fullPageCarousel-details a').replaceWith($(contentItems[clickPosition]).find('a').clone(true));
-				
+
 				$('div.fullPageContent .coordinatesText span').replaceWith($(contentItems[clickPosition]).find('.coordinatesText span').clone(true));
-				
+
 				var slidePosition = (clickPosition == 0) ? ((currentSelected<=1) ? 0 : (-(dots.length)*w)) : (-clickPosition * w );
-	
+
 				window.__fullPageCarouselAnimation = true;
 				animateCrosshairs(clickPosition);//animate the crosshairs
 				content.animate({'margin-left': slidePosition +'px'}, speed, easing, function(){
@@ -258,16 +258,16 @@ layout: default
 			setupFullPageCarouselSwipe();
 			resetFullPageCarouselTimer();
 		}
-	
-	};	
+
+	};
 	var init = function(){
 		setUp();
-		
+
 		// add a resize window hook
 		$(window).resize(function(){
 			setUp();
 		});
-		
+
 		if (typeof window.orientation !== 'undefined'){
 			document.addEventListener('orientationchange', function(){
 				$('div.fullPageCarousel div.fullPageCarousel-carousel ol li:last-child').remove();
@@ -279,8 +279,7 @@ layout: default
 
 	return {
 		init: init
-	};	
+	};
 })();
 		// ]]>
 	</script>
-	

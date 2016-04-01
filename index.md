@@ -1,8 +1,12 @@
 ---
 layout: page
-title: Caleb Hamilton
+title: Caleb H...
 ---
 ## That's *me*.
+### Hello
+#### tags
+
+I am Caleb.
 
 I been working on increasing my overall knowledge, so I can call myself a Full-Stack developer. I do spend a most of my time in templates, styles and HTML.
 

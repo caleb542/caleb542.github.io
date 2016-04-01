@@ -15,17 +15,19 @@ Alt-H2
 
 ### Here are some links
 
-* [Link to my github site](https://caleb542.github.com)
+* [Link to my github site](https://caleb542.github.com){:target="_blank"}
 
-* [Link to my other site](http://calebhamilton.com)
+* [Link to my other site](http://calebhamilton.com){:target="_blank"}
 
-* [And Link to my little pacman sprite](http://calebhamilton.com/pacman)
-
-
+* [And Link to my little pacman sprite](http://calebhamilton.com/pacman){:target="_blank"}
 
 
 
-**I been working on increasing my overall knowledge**, so to call myself a _Full-Stack_ **developer**. I do spend a most of my time in templates, styles and HTML.
+
+
+**I been working on increasing my overall knowledge**...
+
++ so to call myself a _Full-Stack_ **developer**. I do spend a most of my time in templates, styles and HTML.
 
 I enjoy new experiences, this is one of my newer projects.  The Github experience is also new for me. Jekyll is o.k. so far.  
 

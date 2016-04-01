@@ -13,11 +13,13 @@ Alt-H2
 
 *I am Caleb.*
 
-[Link to my github site](https://caleb542.github.com)
+### Here are some links
 
-[Link to my other site](http://calebhamilton.com)
+* [Link to my github site](https://caleb542.github.com)
 
-[And Link to my little pacman sprite ](http://calebhamilton.com/pacman)
+* [Link to my other site](http://calebhamilton.com)
+
+* [And Link to my little pacman sprite](http://calebhamilton.com/pacman)
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Caleb H...
+title: Me
 ---
 ## That's *me*.
 ### Hello

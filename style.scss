@@ -479,8 +479,9 @@ a i.svg-icon:focus{
 	-webkit-transform:all .75s ease;
 }
 
-table td{
+table td,table th{
 border:1px solid #00eeFF;
+background:rgba(100,100,100,0.4);
 padding:4px;
 text-align:middle;
 }

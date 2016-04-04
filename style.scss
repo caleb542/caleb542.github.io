@@ -36,7 +36,9 @@ body {
 	font: 18px/1.4 "Railway",sans-serif;
 	color:$white;
 }
-
+.entry{
+	background:rgba(0,0,0,.3);
+}
 .pageHeight{
 	min-height: 63vh;
 }

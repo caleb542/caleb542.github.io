@@ -38,6 +38,7 @@ body {
 }
 .entry{
 	background:rgba(88,88,88,.15);
+	padding:20px 0 10px 20px;
 }
 .pageHeight{
 	min-height: 63vh;
@@ -70,7 +71,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	font-weight: 500;
 	line-height: 1.4em;
-	margin: 5px 5px 0px 0px;
+	margin: 5px 5px 0px 20px;
 	padding: 0;
 
 	@include mobile {

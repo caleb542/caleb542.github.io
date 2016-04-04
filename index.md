@@ -25,7 +25,7 @@ Alt-H2
 Markdown | Less | Pretty | a | b | c | d | e | f
 ---|---|---|
 *Still* | `renders` | **nicely**
-1 | 2 | 3 | 4 | 5
+it is | not as  | pretty | 4 | 5 | 6 | 7 | 8 | 9
 
 
 **I been working on increasing my overall knowledge**...

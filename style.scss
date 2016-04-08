@@ -153,8 +153,9 @@ a {
 	color: $white;
 }
 a:hover, a:focus {
-	text-decoration: overline;
-	text-decoration-style: wavy;
+	text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: $white;
 
 }
 // Fixes images in popup boxes from Google Translate

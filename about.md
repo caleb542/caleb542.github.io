@@ -2,13 +2,12 @@
 layout: page
 title: About
 permalink: /about/
+published: true
 ---
+
 
 ### Some information about me
 
-*(More Information coming ~~soudn~~ soon**ish**.)*
-
-Markdown.
-I don't know why we do this, markdown is like markup only annoyingly now I have to learn both.  It would be tricky to have a client learn to write blogs in either Markup or Markdown.
+Nothing to say at this point.
 
 [Contact me](/contact)

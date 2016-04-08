@@ -1,15 +1,17 @@
 ---
 layout: default
-title: About
+title: Contact
 permalink: /contact/
 ---
 
-Oh hello there, if you want to get ahold of me...
+## Some links...
 
-### How to google me
+[Github](https://caleb542.github.com){:target="_blank"}
 
-http://google.com?caleb%20hamilton
+[calebhamilton.com](http://calebhamilton.com){:target="_blank"}
 
-### Contact me
+[Facebook](https://caleb542.facebook.com):{target="_blank"}
+
+## Email...
 
 [researchme@domain.com](mailto:research@domain.com)

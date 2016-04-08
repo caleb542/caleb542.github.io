@@ -10,7 +10,7 @@ permalink: /contact/
 
 [calebhamilton.com](http://calebhamilton.com){:target="_blank"}
 
-[Facebook](https://caleb542.facebook.com):{target="_blank"}
+[Facebook](https://caleb542.facebook.com){:target="_blank"}
 
 ## Email...
 

@@ -4,14 +4,14 @@ title: Contact
 permalink: /contact/
 ---
 
-## Some links...
+#### Some links...
 
-[Github](https://caleb542.github.com){:target="_blank"}
++ [Github](https://caleb542.github.com){:target="_blank"}
 
-[calebhamilton.com](http://calebhamilton.com){:target="_blank"}
++ [calebhamilton.com](http://calebhamilton.com){:target="_blank"}
 
-[Facebook](https://caleb542.facebook.com){:target="_blank"}
++ [Facebook](https://caleb542.facebook.com){:target="_blank"}
 
-## Email...
+#### Email...
 
 [researchme@domain.com](mailto:research@domain.com)

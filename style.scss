@@ -151,12 +151,12 @@ img {
 }
 li a {
 	color: $white;
-	text-decoration-line:overline;
-	text-decoration: overline;
+	text-decoration-line:underline;;
+	text-decoration-style:double;
 }
 li a:hover,
 li a:focus {
-		text-decoration: underline;
+		text-decoration: strikethrough;
     text-decoration-color: $white;
 		color: $white;
 

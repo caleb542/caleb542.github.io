@@ -8,11 +8,15 @@ published: true
 
 I don't know why we do this, but markdown is a real thing.  I haven't seen any __real__ bloggers blogging in jekyll, bloggers want a MSWORD type of experience, and as such they like WYSIWYG editors, and we don't seem to have one for Jekyll.  I am typing this on Prose editor, which shows you the Markdown, but isn't foolproof.
 
+
 Developers who blog seem to like Jekyll, but developers tend to like little challenges like this.
+
 
 If I were to ship an existing WP blog to Jekyll, I would have to teach the client about markdown, or create a WYSIWYG editor to markdown for said blogger. I am not sure that would be an easy sell...
 
+
 in any case, I continue to try.
+
 
 C
 

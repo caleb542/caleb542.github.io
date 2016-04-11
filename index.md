@@ -18,7 +18,7 @@ If I were to ship an existing WP blog to Jekyll, I would have to teach the clien
 in any case, I continue to try.
 
 
-C
+C.
 
 ### Here are some links
 

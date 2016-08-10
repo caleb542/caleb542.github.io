@@ -1,18 +1,20 @@
 ---
 layout: page
-title: Me
+title: Front Page
 published: true
 ---
 
-### Markdown
+### 
 
-I don't know why we do this, but markdown is a real thing.  I haven't seen any __real__ bloggers blogging in jekyll, bloggers want a MSWORD type of experience, and as such they like WYSIWYG editors, and we don't seem to have one for Jekyll.  I am typing this on Prose editor, which shows you the Markdown, but isn't foolproof.
-
-
-Developers who blog seem to like Jekyll, but developers tend to like little challenges like this.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed placerat tempor mauris, ut accumsan libero imperdiet in. Nulla porta eget nibh nec consequat. Suspendisse sagittis, ligula sit amet pulvinar pulvinar, urna leo bibendum ipsum, in consectetur eros justo non nunc. Nulla facilisi. Integer vel est in massa laoreet malesuada. Fusce varius neque tempus lorem sollicitudin hendrerit. Nam tincidunt volutpat metus, egestas hendrerit arcu finibus sit amet. Aliquam lacus nibh, eleifend ut pretium eu, malesuada quis neque.
 
 
-If I were to ship an existing WP blog to Jekyll, I would have to teach the client about markdown, or create a WYSIWYG editor to markdown for said blogger. I am not sure that would be an easy sell...
+
+
+"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+
+
+Cras ultrices nunc enim, quis ornare nulla scelerisque eget. In sit amet vehicula arcu, ut iaculis arcu. Etiam in imperdiet purus. Aliquam tristique velit eu urna elementum dapibus. Integer pulvinar interdum risus nec pharetra. 
 
 
 in any case, I continue to try.

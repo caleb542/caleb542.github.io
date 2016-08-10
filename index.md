@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Front Page
 published: true
 ---
